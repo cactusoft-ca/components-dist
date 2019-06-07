@@ -1266,7 +1266,7 @@
         "signature": "c04c73a14506f8272c983bb84c0e1053d60d59fcbaeb227f17d2c0cc1231b254"
       },
       "c:/users/a.boisier-michaud/components/src/cdk/schematics/utils/build-component.ts": {
-        "version": "40502188e5b1255d70f2547c977c17b1e8c628e28011917d6b2cb3a196891868",
+        "version": "52c6f8044a00be2a93e0acfd8ccd8900d073c1798eb8973196c1fbca8a039437",
         "signature": "88afef7431f63db57b7ce6bd476a7669e4630e7f1b179427bd643c768dd6a240"
       },
       "c:/users/a.boisier-michaud/components/node_modules/@types/parse5/index.d.ts": {
@@ -1598,7 +1598,7 @@
         "signature": "0037a2b2163a7496ed17f90a047b79fbd9075649095f654b41e27388f9f7fe24"
       },
       "c:/users/a.boisier-michaud/components/src/cdk/schematics/ng-add/index.ts": {
-        "version": "0393c8d1f99193b704c47deee10754d514ba0d252ce0f22c1b7dbf6d4f0023d7",
+        "version": "03d5174ead74a8b9bf588f500207818aba3d57c2b8cf80eb03a10f1443a7c723",
         "signature": "f65708163a678857b8f9e7f0876861c68124498bb40effbcba8d6ad9a20a7878"
       },
       "c:/users/a.boisier-michaud/components/src/cdk/schematics/ng-add/schema.ts": {
@@ -1610,7 +1610,7 @@
         "signature": "b7959423ffa70c49ca4202ecb2231d3ab72637a33cef92b333adeffce7a3aa89"
       },
       "c:/users/a.boisier-michaud/components/src/cdk/schematics/ng-generate/drag-drop/index.ts": {
-        "version": "960d9694630938a53a247abb4d9e809054e2beb3c255c6794e4477d9b4869d57",
+        "version": "f014f5f46fd2c646342ece85aea774c20187c9be9642e15497c8fabb5e2379d0",
         "signature": "ed907b9b42662f9a6877df123328bfcdfe676c91a74a25e3d7e45c89675504e5"
       },
       "c:/users/a.boisier-michaud/components/node_modules/@types/chalk/index.d.ts": {
@@ -1618,7 +1618,7 @@
         "signature": "b5a754d9b2c6492e14d422384cb0fb0874f9795dbc213d3000cc5ea010c70d60"
       },
       "c:/users/a.boisier-michaud/components/src/cdk/schematics/ng-update/index.ts": {
-        "version": "421b70aed837580094e6256f32c6631d9ca7d7167bde61cf56a21fda091a075d",
+        "version": "70799c6ff710b97272afb82faf56b9181ff4309e9551b9d88106331e29938944",
         "signature": "8d4bdf19ba3a6faea0c6560233c1b6e0915b674ab11aeca5c85945e703d56a60"
       },
       "c:/users/a.boisier-michaud/components/src/cdk/schematics/ng-update/upgrade-rules/attribute-selectors/attributeselectorsstringliteralrule.ts": {

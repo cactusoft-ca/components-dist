@@ -37,7 +37,7 @@
     "migrations": "./schematics/migration.json"
   },
   "sideEffects": false,
-  "releaseGitCommitSha": "72fad7da4c1d00aad264708c3afab2eb3b463386",
-  "releaseGitBranch": "master",
+  "releaseGitCommitSha": "33974a9cf78a470bb5413bf79cba6fdbd9fc89f8",
+  "releaseGitBranch": "drag-and-drop-start-delay-fix",
   "releaseGitUser": "Antoine Boisier-Michaud <antoine.boisier-michaud@cactusoft.ca>"
 }

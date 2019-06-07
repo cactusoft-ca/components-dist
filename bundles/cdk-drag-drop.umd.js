@@ -849,6 +849,7 @@ DragRef = /** @class */ (function () {
         if (isTouchEvent(event)) {
             this._lastTouchEventTime = Date.now();
         }
+        this._toggleNativeDragInteractions();
         if (this._dropContainer) {
             /** @type {?} */
             var element = this._rootElement;
@@ -926,7 +927,6 @@ DragRef = /** @class */ (function () {
             this._rootElementTapHighlight = rootElement.style.webkitTapHighlightColor;
             rootElement.style.webkitTapHighlightColor = 'transparent';
         }
-        this._toggleNativeDragInteractions();
         this._hasStartedDragging = this._hasMoved = false;
         this._initialContainer = (/** @type {?} */ (this._dropContainer));
         // Avoid multiple subscriptions and memory leaks when multi touch
@@ -1364,11 +1364,11 @@ DragRef = /** @class */ (function () {
      * @return {?}
      */
     function () {
-        if (!this.isDragging() || !this._rootElement || !this._handles) {
+        if (!this._rootElement || !this._handles) {
             return;
         }
         /** @type {?} */
-        var shouldEnable = this.disabled || this._handles.length > 0;
+        var shouldEnable = this._handles.length > 0 || !this.isDragging();
         if (shouldEnable !== this._nativeInteractionsEnabled) {
             this._nativeInteractionsEnabled = shouldEnable;
             toggleNativeDragInteractions(this._rootElement, shouldEnable);

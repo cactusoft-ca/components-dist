@@ -278,9 +278,9 @@ export declare class DragRef<T = any> {
     /** Handler that is invoked when the user lifts their pointer up, after initiating a drag. */
     private _pointerUp;
     /**
-    * Clears subscriptions and stops the dragging sequence.
-    * @param event Browser event object that ended the sequence.
-    */
+     * Clears subscriptions and stops the dragging sequence.
+     * @param event Browser event object that ended the sequence.
+     */
     private _endDragSequence;
     /** Starts the dragging sequence. */
     private _startDragSequence;
