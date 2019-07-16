@@ -302,8 +302,9 @@ class DragRef {
                         this._endDragSequence(event);
                         return;
                     }
-                    // We need to prevent default here in case the pointer move starts a scroll sequence. If we do not
-                    // prevent the scroll from starting, then we won't be able to prevent future touchemove events.
+                    // We need to prevent default here in case the pointer move starts a scroll sequence.
+                    // If we do not prevent the scroll from starting, then we won't be able to prevent future
+                    // touchemove events.
                     event.preventDefault();
                     // Prevent other drag sequences from starting while something in the container is still
                     // being dragged. This can happen while we're waiting for the drop animation to finish
