@@ -881,93 +881,249 @@
         "version": "f7d5f554678fc19b64e3f06ea0f1c6994a8a5db9adc595dabcfc19b90b9c2301",
         "signature": "39d151c3bfee1d7ec124f55dc665898b0c7c98fb07aca563bfac949785a6d1ce"
       },
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/imports.ts": {
-        "version": "d81ae0de8b8e17213bbe934835ebaa47a1c0029a6e3797960e00c9c53526cd13",
-        "signature": "f838c49b3db63c6b548edf7dec8fbf15b080891c4e3fa3c073e772bb06fec618"
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/target-version.ts": {
+        "version": "b0cf9c9bb3b35f9895a2ca32f6379bada4de914b7fd17e83e17d8d93a85816f8",
+        "signature": "a4fa9cde18e835e0a652d517a525cdce00ff07b8cb284989c3af1198508e7be8"
       },
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/decorators.ts": {
-        "version": "fadebfbc1d1b579623207c33ce0f668c463a200bd2d875b7c8de44d8495ab948",
-        "signature": "eea52a95d54ec33b049bf067d8a8cf901d7683e53102eb7a23b23e74fd5c65f5"
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/syntaxwalker.d.ts": {
+        "version": "a37fd08da1b34b4d7003e79631f50a0205a61226fee2beb5bef81a71902cfa46",
+        "signature": "a37fd08da1b34b4d7003e79631f50a0205a61226fee2beb5bef81a71902cfa46"
       },
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/functions.ts": {
-        "version": "c4ca15bb62edd5d7132a6d575d8cf3ddcfc3756ddb629db30a07337c5c3ce4f1",
-        "signature": "ddb1b8195cb3e2b64eed1a1f9ad9e49ecdcea6c32c0d585c47ce475e5ff17cbe"
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/walkcontext.d.ts": {
+        "version": "361b32a0db970638cde6648c4f06d79cfca7706d6a73acd59ecb0abd978eef67",
+        "signature": "361b32a0db970638cde6648c4f06d79cfca7706d6a73acd59ecb0abd978eef67"
       },
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/line-mappings.ts": {
-        "version": "4afc60da068daa6e4bfc3e0d3c93a8c9c69523e4549020ac4ebe97f5b5342654",
-        "signature": "c2f6cc30342afbec0f52fea0e873d1751fd09c8d0d2562836d1ee321a61dde68"
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/walker.d.ts": {
+        "version": "d608adfa6fba486383b814a3f3b597817be20e55f13d7a34a2ac3a3926d40adf",
+        "signature": "d608adfa6fba486383b814a3f3b597817be20e55f13d7a34a2ac3a3926d40adf"
       },
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/property-name.ts": {
-        "version": "d1d2d30a370f866694ba17544590548d4e445285db97e736f809d42666066148",
-        "signature": "d181e953da9a0869633e971dfd48413441b95b1e1e1b49370a6edb0e29438b5b"
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/rulewalker.d.ts": {
+        "version": "78c4cea948fd307a09aa017a9b05f601dc5560166f9cb562353237d9d0480c43",
+        "signature": "78c4cea948fd307a09aa017a9b05f601dc5560166f9cb562353237d9d0480c43"
       },
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/component-resource-collector.ts": {
-        "version": "a31b8e077c9366dd5dd79c99f4533510b31ec55025942aacc1fa3b026147d125",
-        "signature": "c272c0f7db749c6e6f281dbc53913d965e0b55f20e1d363d0e98c13b2af85b3e"
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/scopeawarerulewalker.d.ts": {
+        "version": "682ff18019a3e574d04f233543d0c83f7566a667b64dd49475e95f7b8d7056c5",
+        "signature": "682ff18019a3e574d04f233543d0c83f7566a667b64dd49475e95f7b8d7056c5"
       },
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/target-version.ts": {
-        "version": "fbeadad2468c6de5155949330a91cce086c4f444d806edc0ab0aaea382bdf45f",
-        "signature": "30a739d55e41a57bf555a98016553af0920fdc6a47ed6b42c223082608c621a0"
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/blockscopeawarerulewalker.d.ts": {
+        "version": "65d4fbe40d30e01a230d41bf49d44d69b75e4895ca07aedde6b15c812a60916d",
+        "signature": "65d4fbe40d30e01a230d41bf49d44d69b75e4895ca07aedde6b15c812a60916d"
       },
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts": {
-        "version": "1e303462e83653dd3c61b85f5387226062d59e2ac2a4150950a47424837dac5e",
-        "signature": "fefff1ece4c8af78bab04a41d9433a106b7fc1a911a726363b923417f70b7bef"
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/programawarerulewalker.d.ts": {
+        "version": "63df934ff4e61472be885417264225a221a9548b5e52e847cc56657766c5f1ed",
+        "signature": "63df934ff4e61472be885417264225a221a9548b5e52e847cc56657766c5f1ed"
       },
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts": {
-        "version": "a3858b49ba71e68c59d451391835aedda71b0ecc631a3d63029415de72d3d005",
-        "signature": "e92d7eaa982bc7d386caff8e1ebb13e365a9b7f4862d8f6628710cc7efbfbd1f"
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/index.d.ts": {
+        "version": "02fdedab5a3a8c53144228df36eeba76f46b7b403118db28dcd319646b8fe6ca",
+        "signature": "02fdedab5a3a8c53144228df36eeba76f46b7b403118db28dcd319646b8fe6ca"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts": {
+        "version": "2fb5da44e588512cf805ee7e466699b0c2d4514757ba3a2dbf4a487d7562b3c2",
+        "signature": "2fb5da44e588512cf805ee7e466699b0c2d4514757ba3a2dbf4a487d7562b3c2"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/configuration.d.ts": {
+        "version": "4a4f916fb2b9bdddfee14821c15b2dcdb0ff70fde37c1fd159e9122a63da9042",
+        "signature": "4a4f916fb2b9bdddfee14821c15b2dcdb0ff70fde37c1fd159e9122a63da9042"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts": {
+        "version": "87526303738e4edeb08c38cc3750dc874e54111dd8c6f4816a9df00d3b5dc7ea",
+        "signature": "87526303738e4edeb08c38cc3750dc874e54111dd8c6f4816a9df00d3b5dc7ea"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/abstractformatter.d.ts": {
+        "version": "3a43fa1f2b440d233560ff371920ccd14c1ab29ad5074fa5a1e4616c4a51b6e7",
+        "signature": "3a43fa1f2b440d233560ff371920ccd14c1ab29ad5074fa5a1e4616c4a51b6e7"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/jsonformatter.d.ts": {
+        "version": "00eb294c52e2b41644a3d86e2191f609ea6185968130376045eb47a69669de2e",
+        "signature": "00eb294c52e2b41644a3d86e2191f609ea6185968130376045eb47a69669de2e"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/pmdformatter.d.ts": {
+        "version": "00eb294c52e2b41644a3d86e2191f609ea6185968130376045eb47a69669de2e",
+        "signature": "00eb294c52e2b41644a3d86e2191f609ea6185968130376045eb47a69669de2e"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/proseformatter.d.ts": {
+        "version": "43f7bc619e86d96191873c2c9494cfc88c9e7252b0b8a451f702d77739690d29",
+        "signature": "43f7bc619e86d96191873c2c9494cfc88c9e7252b0b8a451f702d77739690d29"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/verboseformatter.d.ts": {
+        "version": "744408cd7dc1bf1e1dbc770aac0e50c142a702316c0359a9cc7ae1fa6aafc90d",
+        "signature": "744408cd7dc1bf1e1dbc770aac0e50c142a702316c0359a9cc7ae1fa6aafc90d"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/stylishformatter.d.ts": {
+        "version": "e13acbdd9813434ab367bcc954092541175da09e603b5bd1cd671a5818dca96e",
+        "signature": "e13acbdd9813434ab367bcc954092541175da09e603b5bd1cd671a5818dca96e"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/fileslistformatter.d.ts": {
+        "version": "00eb294c52e2b41644a3d86e2191f609ea6185968130376045eb47a69669de2e",
+        "signature": "00eb294c52e2b41644a3d86e2191f609ea6185968130376045eb47a69669de2e"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/codeframeformatter.d.ts": {
+        "version": "00eb294c52e2b41644a3d86e2191f609ea6185968130376045eb47a69669de2e",
+        "signature": "00eb294c52e2b41644a3d86e2191f609ea6185968130376045eb47a69669de2e"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/tapformatter.d.ts": {
+        "version": "9f34570701f561709ffe7c3b4d8b46612524eae40b7a35671596677f5ad22fcd",
+        "signature": "9f34570701f561709ffe7c3b4d8b46612524eae40b7a35671596677f5ad22fcd"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/junitformatter.d.ts": {
+        "version": "780c1d3215b8359686fa0e84cb5a0f376b2175f5a5ee0cf9a679b5a904b3ef3a",
+        "signature": "780c1d3215b8359686fa0e84cb5a0f376b2175f5a5ee0cf9a679b5a904b3ef3a"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/index.d.ts": {
+        "version": "c31a6806095fa2a0ff15e2274fc5a3823cc7ec50fe265244b06f76768790dfb2",
+        "signature": "c31a6806095fa2a0ff15e2274fc5a3823cc7ec50fe265244b06f76768790dfb2"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters.d.ts": {
+        "version": "574b0f3c9c97978dfaf21d3c60d54f6f4735ebad6c29f8d526ea5d71505c2e81",
+        "signature": "574b0f3c9c97978dfaf21d3c60d54f6f4735ebad6c29f8d526ea5d71505c2e81"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/abstractrule.d.ts": {
+        "version": "81639ac013f1e31267b729d0f25f737b3348324fc7814394f826c5f72eec434f",
+        "signature": "81639ac013f1e31267b729d0f25f737b3348324fc7814394f826c5f72eec434f"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/typedrule.d.ts": {
+        "version": "5369af45989a6f87e2da43c116bceb19b58fa492456a7a7b49044d6ca90fea60",
+        "signature": "5369af45989a6f87e2da43c116bceb19b58fa492456a7a7b49044d6ca90fea60"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/optionallytypedrule.d.ts": {
+        "version": "cd44b752f67662e754920ff7da1906e1f8421f1afbac70c80360bed74e62c481",
+        "signature": "cd44b752f67662e754920ff7da1906e1f8421f1afbac70c80360bed74e62c481"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/rules.d.ts": {
+        "version": "53aaa9de3f13af71c05000d02013744798b1cb1f7abb6afee5936eef7b40de4e",
+        "signature": "53aaa9de3f13af71c05000d02013744798b1cb1f7abb6afee5936eef7b40de4e"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/runner.d.ts": {
+        "version": "22c0ca099a0bcbe55772fd3506dc237152aa514e068f07ba6cc337cb0bb13f31",
+        "signature": "22c0ca099a0bcbe55772fd3506dc237152aa514e068f07ba6cc337cb0bb13f31"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/verify/linterror.d.ts": {
+        "version": "28ac68ecf33f7d1d02639f51b13662ce756119cf09c46694146ad7d50d4c91d6",
+        "signature": "28ac68ecf33f7d1d02639f51b13662ce756119cf09c46694146ad7d50d4c91d6"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/test.d.ts": {
+        "version": "82dbc3f62003d918765a113b0249f6cdb6afdb1e4432a1ce7c4ffb609a73902f",
+        "signature": "82dbc3f62003d918765a113b0249f6cdb6afdb1e4432a1ce7c4ffb609a73902f"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/utils.d.ts": {
+        "version": "85780f544d13ab3cc6c5f7d850446c3a8b329fcb14712ad22b448e99f58ff9be",
+        "signature": "85780f544d13ab3cc6c5f7d850446c3a8b329fcb14712ad22b448e99f58ff9be"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/linter.d.ts": {
+        "version": "9d5742fe3f5aff0314e4acf98f4ab91511727afdb15d87e86beff1c1537dcdb1",
+        "signature": "9d5742fe3f5aff0314e4acf98f4ab91511727afdb15d87e86beff1c1537dcdb1"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/enabledisablerules.d.ts": {
+        "version": "a9e95b5704917009178a1bfef3bb6dcead2d5982f96d8de93d78eb1d55dfcf16",
+        "signature": "a9e95b5704917009178a1bfef3bb6dcead2d5982f96d8de93d78eb1d55dfcf16"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatterloader.d.ts": {
+        "version": "e2175e8956be6be66af258546ada6dea78d7575042780f8a3cdae8df388dd88f",
+        "signature": "e2175e8956be6be66af258546ada6dea78d7575042780f8a3cdae8df388dd88f"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/ruleloader.d.ts": {
+        "version": "5b93f01cc0b506546233d420c85376a26520b16473910df1c3e196df302c70fb",
+        "signature": "5b93f01cc0b506546233d420c85376a26520b16473910df1c3e196df302c70fb"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/utils.d.ts": {
+        "version": "6273dd597ec315aee91189b3edbd271f2834f984543351d945df99a99ee73f97",
+        "signature": "6273dd597ec315aee91189b3edbd271f2834f984543351d945df99a99ee73f97"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts": {
+        "version": "04a7a83d4fddcc85027defe7e56d3712d4dc51fa9a11f34c3dfe7bf5cdcbef0b",
+        "signature": "04a7a83d4fddcc85027defe7e56d3712d4dc51fa9a11f34c3dfe7bf5cdcbef0b"
       },
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/attribute-selectors.ts": {
-        "version": "cfb3549b1b42aa088cfe105541596ceb193ba69b4f5f662c0976cae9477d896e",
-        "signature": "8ab8bc0c4fa5a8eac56ba8115fd108b7756aae8321513b510f2bfdbab7d97ee1"
+        "version": "77d1a2034bb88146daf8bf7ac36e42918631a3c9d92b78d09a237cdb98182e1b",
+        "signature": "c05f5cdfd42c1c5f41df9693b9ab67a483a2d19d43dd82174136d6ba6750e675"
       },
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/class-names.ts": {
-        "version": "4826890a64fded72350de11e0d98a82b8b0f4a5879dff315137a382e14d7f342",
-        "signature": "50bc23d74deb0a170bae12a2fc2d0fcdfc1d1c862337b4ea72e0d92871fa6210"
+        "version": "8c7417e221b85ed5d7fb9823edd2b166a9fa8fcbfb55810a0500f65876a24bfb",
+        "signature": "262958c704fbe2702af0e6349cbf6eb2cfb8d2f04983822550fdf4db749219a6"
       },
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/constructor-checks.ts": {
-        "version": "6d2013432bc918ad6440f91071b2a054c0ea82c9e214258ba7b4570e59c311cb",
-        "signature": "a704bd4f69a117f37fd4cb37bf367c120863f88f6fdbd8a14a1bb70bb1960232"
+        "version": "784db76ab87de2916fe0b55ecc47443ba1f317df4f394e215dfcbf3b545b997d",
+        "signature": "04ada39c60c53dde3bd962d733ad0b865abeaec6f66282e878f2ac8503b79587"
       },
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/css-selectors.ts": {
-        "version": "896d28b6994f20458cc9c7c11ed66876080ea70be71a755519f2d463b0761885",
-        "signature": "bd6cdb3e6ea80b1f81770ea3449be7bdb51d0fbee0cad4ec1230d44fc826c9cd"
+        "version": "81fa68f4a37bc21ae8498d3ffe0af371e36fad1457ea063ee34c717bd0d6b254",
+        "signature": "1650b353474f85bf570a3e7b94aac05fef41ea213f02386ca9d695cb7e7e9988"
       },
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/element-selectors.ts": {
-        "version": "e25037c7e95cddfa8b742918cccd56de73e0170dc048707ef868a89618ff39e2",
-        "signature": "a481096cc0e6fb2ef93921beaf2d7b0e008494e03cd4c8f09488b3eba74930db"
+        "version": "ca13aa2bb28303135995c004a92a4ac7c923b7ebceb9c538f7d551a98f45b3e2",
+        "signature": "27955e888112dd7072aeeb56020eb89c82e505e1c237bb4a854c8a9ed4492d11"
       },
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/input-names.ts": {
-        "version": "077ad886fdb921abd93602a3e5b541aab401a4db225348e9b9a61fcde35c77c6",
-        "signature": "4937e08d3469ee98ae0bed2a660c3d705c912fd50e0bb61d0ee796d0d7bff6f4"
+        "version": "3d6a0eb808bb64768b152aa43414448bfabad0144b95bfa4bf8bb07cea940ef6",
+        "signature": "7268fd6469cbbc5a4bd69ea31d06bd2e03987402ff8e6c3af4212d823730ca85"
       },
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/method-call-checks.ts": {
-        "version": "47defbb812ecf7993b14601934562c5a9dd3cd32eb6fb0f096579445d3e8fe63",
-        "signature": "7b61407f844be206289078eeb976420e8fb390d934d4e8cefccbfdc611c00153"
+        "version": "2ab0fbba76381ba823d77645b3a8383eae0c8d95e7946c4406ea8c26eaab9a8d",
+        "signature": "e8304985b0329055a8906ba731881058528f37e9f3f9ef1626631973292ab535"
       },
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/output-names.ts": {
-        "version": "5431db1286d49508ce9519f78b7b1b23269b60214758a466d00fb258940c5929",
-        "signature": "7d4f7c0838a9622901be81eef0b6b03c52099ea93085876debd0e708802ef848"
+        "version": "b257814c30f83a007d957ce6cd3553d9f36a9b750b9f5051c2faf03b7eecb877",
+        "signature": "353473aedf1f45a6f84a7a328889903398a312fd95b8c76c408a2060e4a4f3ca"
       },
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/property-names.ts": {
-        "version": "a7164447aa2c6cc44ee482855a7e95a7b360106603b869f28b7d99a2a2bfd169",
-        "signature": "04b7419306f676f31c842aac4d7ad78213e71713b2c822f7625523508542f1e7"
+        "version": "0f922bdae950f59e295bbadc85919568bc3eb3f45160fa73abd50c899afdc2bf",
+        "signature": "dbf6d4c9d7ae84ff3b0c9c83e30cfa51541b8c3dc78f36f3616ccc94af717222"
       },
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts": {
         "version": "900bfffc687070ab6801faa522fc7c5b2de5ccdf08993e8eba2cb6058710949a",
         "signature": "cf8335d2dda0ebf493fc7911ae9c2e3e7ce1e23fcf3795a100c96629a0ad0f1b"
       },
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts": {
-        "version": "ecfad076aa4bad02d19fc99f5654a37a66b21a488cdb040154c36ffc4d348254",
-        "signature": "4e288d8dfbe99b7e596962f579330b7c51753bb4c0f2f38de017587d67c56e6b"
+        "version": "902709e5e760b249d7486fd4b512c3ab3ea6c33cefbef2936f2ba6eaaa4a6252",
+        "signature": "017f783c5d5fd5b6749936814ce202296b1407555ffa76faeb4e7a32c816af9f"
       },
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/html-parsing/elements.ts": {
-        "version": "032388f51cda8fbb3a71bb9729511e67786849312c4420cbaecc7029a35dd120",
+        "version": "3ee0268e0ac8da381c5fe45bba914f081f95b6ef3b57f00e4f638eebfb6800d9",
         "signature": "9c97770916d8e012776aceed7c7023a22d386ff5c4ad42ec71a3a6f6061c958f"
       },
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/html-parsing/angular.ts": {
         "version": "4499fa2c83cb028ce03cbf96c138e4ba89e3d1946bc3bda6efd172eb938ba3fc",
         "signature": "d3d8f448da62da1079f92e0d23ba7f390110b6f89e035d8db7223271831128c5"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/node-package/options.d.ts": {
+        "version": "6ff0c84e690d53633c40fd1eca9de79cc4644a6fee5e6cf81304fc15aaadd936",
+        "signature": "6ff0c84e690d53633c40fd1eca9de79cc4644a6fee5e6cf81304fc15aaadd936"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/node-package/install-task.d.ts": {
+        "version": "351838166077d49487a1b5433090b6938f21377ef9ed58fc2d2ae5ae08116987",
+        "signature": "351838166077d49487a1b5433090b6938f21377ef9ed58fc2d2ae5ae08116987"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/node-package/link-task.d.ts": {
+        "version": "f969243a03cf1c3d8fdc8d425a25efb27c0f197e17079755ffcebd24580b86fd",
+        "signature": "f969243a03cf1c3d8fdc8d425a25efb27c0f197e17079755ffcebd24580b86fd"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/repo-init/options.d.ts": {
+        "version": "5b79ac9e25a2f40ddd24db3e6088caf20c883287c21d8809edf7dbead65d6db2",
+        "signature": "5b79ac9e25a2f40ddd24db3e6088caf20c883287c21d8809edf7dbead65d6db2"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/repo-init/init-task.d.ts": {
+        "version": "62f4ad555b4db210954b140ef737bfead95ea7ed96f90507eb02a8e2ace4524e",
+        "signature": "62f4ad555b4db210954b140ef737bfead95ea7ed96f90507eb02a8e2ace4524e"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/run-schematic/options.d.ts": {
+        "version": "61acaeb19e1c9e1bc0c64e2210e7f9710c2de87ef7b9fd0d115d77aa3f4ba76c",
+        "signature": "61acaeb19e1c9e1bc0c64e2210e7f9710c2de87ef7b9fd0d115d77aa3f4ba76c"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/run-schematic/task.d.ts": {
+        "version": "17a74695df91fba000adb118701fd97139176bde7e9843eb891c5891a167ab9c",
+        "signature": "17a74695df91fba000adb118701fd97139176bde7e9843eb891c5891a167ab9c"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/tslint-fix/options.d.ts": {
+        "version": "02ccd2cbd5205fad0be770a5404500767484b2d7f69d7415276824fe8423bd40",
+        "signature": "02ccd2cbd5205fad0be770a5404500767484b2d7f69d7415276824fe8423bd40"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/tslint-fix/task.d.ts": {
+        "version": "0dfffe60f04212c6fda3c0560fac1e6e5f8b517754e9fcdfa769ad050aa333a6",
+        "signature": "0dfffe60f04212c6fda3c0560fac1e6e5f8b517754e9fcdfa769ad050aa333a6"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/index.d.ts": {
+        "version": "91901cb27c92395db448291a8762f348cc9c98664e18eef82e2f3588631ac7ce",
+        "signature": "91901cb27c92395db448291a8762f348cc9c98664e18eef82e2f3588631ac7ce"
       },
       "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/events/index.d.ts": {
         "version": "acc248b90a16d95f2c53b598927967497ed4da2a7e6c9fc6006c5ed9dee25fd7",
@@ -981,97 +1137,53 @@
         "version": "5dc82d5ba2a1f3d8e32d7de551d59b51cd8c0d8dff22e5e77eb56e5e5aeb73ac",
         "signature": "5dc82d5ba2a1f3d8e32d7de551d59b51cd8c0d8dff22e5e77eb56e5e5aeb73ac"
       },
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/parse-tsconfig.ts": {
-        "version": "74d8677dd59edd8fe1aa546ea3968f1600b66f35f61b3457140eb81d1e93ea26",
-        "signature": "7147f80e1c596d9d0c67a099dd416d55ef16a0fbebb6a585a3bad091ca8c7cde"
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/project-tsconfig-paths.ts": {
+        "version": "a5e52ca0f5a187c15f5d253ad169f4311a601637d9fb7df1b106a21411ab4e6c",
+        "signature": "cb38ad3087cb0c83e794fda323de1b65e62e01ad076eadaa991933a48315fc11"
       },
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/index.ts": {
-        "version": "b570d74beb9feed06dc688a283ab8d3aa22c37db5ccb7bddfb3ee125b99bd6e6",
-        "signature": "3d0c334931625b4eca2e67d7f05c38d74c50d8dc7fe342ba06f3c235ddcccf17"
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/tslint-config.ts": {
+        "version": "8a5e1c916c4fdc8632228b25294b25e5bf4a587eb642fabf4542df58fa377977",
+        "signature": "a7e53e1d1e1116db858740c87f4c3a91e80787ef597df0cd2c9492bf9d46bfb5"
       },
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/utils/project-tsconfig-paths.ts": {
-        "version": "4edb403b3afc8a2abb5a6fdfe0afaa14d6dcb3459631cf684a61a1c5efb13a74",
-        "signature": "ae2ac2b29e0c93020714a0418d54cf70c5528e05d209d3fe18923e1a2abb80aa"
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/index.ts": {
+        "version": "838debb380fcad6c9a5dfb3a76f17c4632b55238c86e2fe659234dc4b6d1f6c1",
+        "signature": "817820ef42e2787e4b5ff14b5af7bb758d1d870dbc6b3c24a37bef9d3f7f301f"
       },
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/literal.ts": {
         "version": "aed71cdc8d7c824d9282cab3bdd942dd393ab0ebb353e136f0c6fd37ea240ee6",
         "signature": "2ddec2ccf8cda4e4908d64e917b3f4355fc9c098be1b0896055e316456249f5c"
       },
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/attribute-selectors-rule.ts": {
-        "version": "cd2cbc0ff65b45144acfda3bf9bdc93011848c79d910b6cdb36c6be9399edee2",
-        "signature": "81e4837dc585f097d806e71fdb6d8868ce4ab9fc2b8d7f31fb8557e9de726eeb"
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts": {
+        "version": "faa293f64820703aa127e250b4a7ede5ea2b799a563c9d5714bcbbec4dbe61c3",
+        "signature": "e2fbcd0811ff414bc0034c8e08400cc741ce9b4d2ee4a8abb4163b583e3fd77c"
       },
-      "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/chalk/index.d.ts": {
-        "version": "b5a754d9b2c6492e14d422384cb0fb0874f9795dbc213d3000cc5ea010c70d60",
-        "signature": "b5a754d9b2c6492e14d422384cb0fb0874f9795dbc213d3000cc5ea010c70d60"
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/external-failure-walker.ts": {
+        "version": "3851ff22556104d389542dcf2f05fa6305e92f67bc75e66918c8abe075b33985",
+        "signature": "069e525d9f59fcb89a52d9a24fbf6e2f4ef8e97051efb71ff73143cdbf4327e0"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts": {
+        "version": "fb88060b5926d8447dbe927778f0940caf34f513a16d5537dd6129b6eec05a09",
+        "signature": "2cefd22e1b155ef37d8a898fb6fbd330a7209de48a251c34b2abe0c2780aab08"
       },
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/base-types.ts": {
-        "version": "4489e7e67f3facadf246e1517c6824fc40608f164d296ddb2101e132590f3363",
+        "version": "1b258f4d89d1c5298160ab8eea328eb976c4e7b965a8df934c634b581d03367a",
         "signature": "e91107091745ad8e4c8a638ce9faddc6a1c4a971141440c9f08e138f2ecbb076"
-      },
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/class-inheritance-rule.ts": {
-        "version": "4d5f2afad611f58375108a23e4a0da65e294ce2bfeab9533cb2b0bd002b12192",
-        "signature": "969f9b087a0f9a9144b67e80b88361eca675b127e4ff9a6a615522be9c8e2404"
       },
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/imports.ts": {
         "version": "b98ab996f3f28da0c023d23863e8c349317ba3cf9642f5877b093b2caf53bdcf",
         "signature": "8a06bea47fb934ee3902e516caa7a856cb7584822d0d8c5e2dd24a7738ce4068"
       },
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/module-specifiers.ts": {
-        "version": "df8c9e8f82393ee554333650540ac70825e1fc8144a0707f054e6d86f9e9a612",
+        "version": "06b080abedebe1baa6b9ee3196866cacf520b155cd1753f65e338517b21cfcce",
         "signature": "136386ce8809935472bf9486824354a8550cb15d18e42c77809994ed36dc319f"
       },
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/class-names-rule.ts": {
-        "version": "cadea52c04dfa9d83df9506887917b0c5074649c8464ae65dac3e3b32a043284",
-        "signature": "b2fd9145ccaae1e0fc39aea0150fa2c2bbf86d325cc7df1b0b6a1b2431e41dd8"
-      },
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/constructor-signature-rule.ts": {
-        "version": "39cbbc0044bdfe96b6a879720da8d371c58f0e2bcbeee63ed816018f97764ff6",
-        "signature": "fcb01033f210969452b67503384fa3647314c28a0ed3910cd21d0e4ed4ac4b7c"
-      },
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/css-selectors-rule.ts": {
-        "version": "bb609199e5346bf75b11589901ba35edaf28fcd5410928a7ae954e56158172d2",
-        "signature": "6899c86c0294e2542de350ace00113c7ca68bc85c272f49a171eee952a1d72d1"
-      },
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/element-selectors-rule.ts": {
-        "version": "b298364445710465bf669c8b46e6eaa169fe262b6157658c8225e24f08ede24d",
-        "signature": "c21c14e2f8ea9760ff9244a8c2557b13994d70023c5a434346014c65d55f95b5"
-      },
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/input-names-rule.ts": {
-        "version": "6be1b5f8c40880b3fd6227c3c4974cbc68e3c90643c3905de5b84ad7b1d8feeb",
-        "signature": "3456b54b8be33c933aaa64bc03daacb1fea92f11c70ece40a55c186f4d40d407"
-      },
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/method-call-arguments-rule.ts": {
-        "version": "3c6bd458e8af5f866e6e2c5b0930b36b72650f962cb194d664943e93f0d438e5",
-        "signature": "bb1bd2e47555956f1db7cba6f8a0e853882b0034e9cd2b3fe16115356f9880c2"
-      },
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/misc-template-rule.ts": {
-        "version": "a3751eb86915d5b51beef92b9faa278e78b1a27df1b1a875be4881e39994881c",
-        "signature": "e68cfebd8522f158d241354f4d905bfe15aa0721763a897f6630a30d65f33843"
-      },
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/output-names-rule.ts": {
-        "version": "5d6d698db60f4cd65e873ed9d044fb0f6732e0143ec63e3dd97f91f359ba5f21",
-        "signature": "4f6518a46902fbf22fb768de299e5c4e3cc9081177490677f78db96160b8f598"
-      },
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/property-names-rule.ts": {
-        "version": "e424c65e08c90d602f6c62b852425bb7e88dc203a49423adb6b86eb6cd4b9382",
-        "signature": "251c997ac6a44b7c0a700f513413e39df8a1a3e4acdbd4acc7c56da46566a7ff"
-      },
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/index.ts": {
-        "version": "0996e90da504a0bebcc611ae33516bfd7f5c3c5086846b37ade64f203de658ab",
-        "signature": "ee3630236cfeed33f0f449fd39dee9b6c7d074449ed86c45884670646a4258d0"
-      },
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/public-api.ts": {
-        "version": "5fe3f1dee87af18ba9eace1eac586729efbc6704d4f175f3bf49a05571db213e",
-        "signature": "9bc0e1f0bd842a2d4b98ab5ce8f1a412cf3b40011776e8dc31b6c8b98e337aef"
-      },
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/public-api.ts": {
-        "version": "4ac67da6e10eb2de20bed83ee44390bfb4d7d923e8971954e103b1bb4c3e58bd",
-        "signature": "e890fe69d2d870c66d42747eec212034d056bde67c2a594f758f223401212e99"
+        "version": "0e0fb183b5254b0ee8e40c8c9a123f82468aa7bc6e80966b78f7eecfcfc65a57",
+        "signature": "e2009f285a02c4644356153598b6c8a4e3f63fae5bb92312ee45c615568caf0e"
       },
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/index.ts": {
-        "version": "d878b9e44beb16a139d1a44f4b2dc65756b5663f3b22ea98d7265b004c48d7d7",
-        "signature": "b1119afa75842d91d46dfe94cb8e74d82c82c4751ebf0cc6438cdfb02916352f"
+        "version": "38515fe74128638e6e370a2af9c675f00fc23664641e1959321ab945a783c780",
+        "signature": "2950ab499b44b6d672865e659cf8d172a62de654eddf27624487f77b4f132ac4"
       },
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-add/package-config.ts": {
         "version": "0f559884ff933de173035a2bc1c7b950ffb6af1ccb7695589821853afcf1ad86",
@@ -1093,9 +1205,85 @@
         "version": "f014f5f46fd2c646342ece85aea774c20187c9be9642e15497c8fabb5e2379d0",
         "signature": "ed907b9b42662f9a6877df123328bfcdfe676c91a74a25e3d7e45c89675504e5"
       },
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/chalk/index.d.ts": {
+        "version": "b5a754d9b2c6492e14d422384cb0fb0874f9795dbc213d3000cc5ea010c70d60",
+        "signature": "b5a754d9b2c6492e14d422384cb0fb0874f9795dbc213d3000cc5ea010c70d60"
+      },
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/index.ts": {
-        "version": "acd52c243a326b68b8970ab539d7d9f25d409e69a8d59eaf71ad7ee5e089d6c4",
-        "signature": "4fc9f134a158c3011fc97f776921bc298cc718193a9bc728734d49c0dd4dc343"
+        "version": "70799c6ff710b97272afb82faf56b9181ff4309e9551b9d88106331e29938944",
+        "signature": "8d4bdf19ba3a6faea0c6560233c1b6e0915b674ab11aeca5c85945e703d56a60"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/attribute-selectors/attributeselectorsstringliteralrule.ts": {
+        "version": "a726ec91ae478c14421eb0a24d16ef96f7095005074b0e0567ba223f36f29a6a",
+        "signature": "4e619e7990eb7719724755d0a79a1bb7663456581cbfb1bad49ea9c696bf0964"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/attribute-selectors/attributeselectorsstylesheetrule.ts": {
+        "version": "9b9fde853b3076d6e697429d1c5f86ae8bfcceec8fae0ac9cb197e5b6d7e8935",
+        "signature": "868a9c0602d48315d9c835768de7770dfd9742c2c7ee6160de34757911f85849"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/attribute-selectors/attributeselectorstemplaterule.ts": {
+        "version": "83cf71ba9011a3429d37051d46f42bac47cd840c964af0fc1cccf4582c692202",
+        "signature": "2a2371402b1313078c0ffca119e13570f39e70410798f7780532baa3ef631c65"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/class-inheritance/classinheritancecheckrule.ts": {
+        "version": "4de95ac7b7f334f85efb152748ecf24ebe253204b4c8df7e444e72e0f36f29fd",
+        "signature": "b6e575563d74672c33119423d4172869d018162962b8921de6e1b2a554207683"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/class-names/classnamesidentifierrule.ts": {
+        "version": "4441803dd126ac0c7b15f787e42f3e7808f731e09c95c2a7733ac41d0c54f9dd",
+        "signature": "520dd41378734d664bc7378b6e30be4c626562baa8a26cf85a72fb4f956d6e35"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/css-selectors/cssselectorsstringliteralrule.ts": {
+        "version": "cfc29ed611af0218a5437cc6a114d98cee792d574928422e9a643bd9fae0e783",
+        "signature": "a13f8386756449d3c08b6b23fdcf8ea5b5cd3ccd49491d4fdd68efc7a5765736"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/css-selectors/cssselectorsstylesheetrule.ts": {
+        "version": "3d0ac31f6b501d5be097f77de24d05a22722706d682ae749da22b588b09eb089",
+        "signature": "acb76da6f667cf515c705fe0510d8f5c2028b63ef6c098501e4972ef95b0be18"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/css-selectors/cssselectorstemplaterule.ts": {
+        "version": "633cad066a14a9a76258b9c1f92e7fdc35e3ef666cbfeabff66092f520494cd2",
+        "signature": "16c77298ea75baa4048c9a52b2749dc7138ffa2cca82105f89dca3a3469804d4"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/element-selectors/elementselectorsstringliteralrule.ts": {
+        "version": "9c038146179329bb5455bad1c5d7ebfdec925f5e67d8a6e49fc7eec4208d9412",
+        "signature": "67b7dd28ee424feb60152678709a9016968ecf689021fb380077036f9d5905b5"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/element-selectors/elementselectorsstylesheetrule.ts": {
+        "version": "665d7d92ac510d420d80727ac060846ec788f02084c6fa91e15c1007fb840b0a",
+        "signature": "74725425f3fc8f5b90f53a09fb5d63384cbcdbe2eb6777930d739d13cb86e6c3"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/element-selectors/elementselectorstemplaterule.ts": {
+        "version": "40755e7a628047dbf3c8fe981ef4020be0a5992e4553d322337b87901895bbfd",
+        "signature": "acc20fafb3f8fcbc2834702b08d9e035e1b5f86b525e8715ab4ef067a4647e16"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/input-names/inputnamesstylesheetrule.ts": {
+        "version": "ce4c3f3daa6de2af19d5061d94af2ac9748ffab5f492b8f0247bac3cdb5b9084",
+        "signature": "927033895f386979c83cb9cc15769720b078b9704e9757d56ef46cade4402ffb"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/input-names/inputnamestemplaterule.ts": {
+        "version": "0e95aa89cc0f4191094af12cc899ce7864c7fe6de9b0a3a2d02f0a8e36474e6f",
+        "signature": "2133f31b76d3d7d4e6759ba76ab7bea6596132d9defa40661224af0e32f56534"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/misc-checks/checktemplatemiscrule.ts": {
+        "version": "3185689336422a37e567af3a6d2d191bf30da426f8b79bfb1201445a22577304",
+        "signature": "d4fa41b3d922416530cd41e5da4754dcacda6119e5ae62a2f056d9d942f02963"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/output-names/outputnamestemplaterule.ts": {
+        "version": "d4a39dc7319b9b3ef18cdf8a6dfd9b89fd2f0735fe357e6e7672977a5bfcfc9b",
+        "signature": "3bb43880d7fa4891f4e64ec4b0e5a1b1f05d6e22ffa0a6722326b4893d3c29fa"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/property-names/propertynamesaccessrule.ts": {
+        "version": "3b7795b68683c329db04906b1b0552839bf33b5e36731675bb6bd0273cbcdf11",
+        "signature": "10e07b714bdd82b3732ca589b48942f36e1d88f568fa35a73f85cb13907e89d5"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/signature-check/constructorsignaturecheckrule.ts": {
+        "version": "a02c8c97937add514bea411d7f324a2d00f2a897ec577fc6156d6b984a3501e0",
+        "signature": "596cb80c848f4614dcb5e7f485262d2e49a76bd3bee1369acfb8376bbb2fb6e0"
+      },
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/signature-check/methodcallscheckrule.ts": {
+        "version": "142def1a9356a3d7928eadf40748c90242e03b9e757577b67072f78bf87092d5",
+        "signature": "7a1d45a5771c33209da1fbde8b3175331b35487d5d1b6016ab3913518e38887c"
       },
       "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/jasmine/index.d.ts": {
         "version": "7b1c22c9dc5276eb53932533f7a0e16c259145bd2680c78ea995288755f9c231",
@@ -2033,73 +2221,220 @@
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/utils/schematic-options.ts",
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/utils/version-agnostic-typescript.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/imports.ts": [
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/syntaxwalker.d.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/decorators.ts": [
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/walkcontext.d.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/imports.ts"
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/functions.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts"
-      ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/property-name.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts"
-      ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/component-resource-collector.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/node/index.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/walker.d.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/decorators.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/functions.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/line-mappings.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/property-name.ts"
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/walkcontext.d.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/rulewalker.d.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/component-resource-collector.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/target-version.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/line-mappings.ts"
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/syntaxwalker.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/walker.d.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/target-version.ts"
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/scopeawarerulewalker.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/rulewalker.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/blockscopeawarerulewalker.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/scopeawarerulewalker.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/programawarerulewalker.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/rulewalker.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/index.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/blockscopeawarerulewalker.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/programawarerulewalker.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/rulewalker.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/scopeawarerulewalker.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/syntaxwalker.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/walkcontext.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/walker.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/index.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/configuration.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/abstractformatter.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/jsonformatter.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/abstractformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/pmdformatter.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/abstractformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/proseformatter.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/abstractformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/verboseformatter.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/abstractformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/stylishformatter.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/abstractformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/fileslistformatter.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/abstractformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/codeframeformatter.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/abstractformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/tapformatter.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/abstractformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/junitformatter.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/abstractformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/index.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/jsonformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/pmdformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/proseformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/verboseformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/stylishformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/fileslistformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/codeframeformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/tapformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/junitformatter.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/abstractformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/index.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/abstractrule.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/typedrule.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/abstractrule.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/optionallytypedrule.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/abstractrule.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/rules.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/abstractrule.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/typedrule.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/optionallytypedrule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/test.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/runner.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/verify/linterror.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/utils.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/node/index.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/linter.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/configuration.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/enabledisablerules.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatterloader.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/ruleloader.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/utils.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/configuration.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/rules.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/test.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/utils.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/linter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/enabledisablerules.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatterloader.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/ruleloader.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/utils.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/index.d.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/attribute-selectors.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/target-version.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/target-version.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/class-names.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/target-version.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/target-version.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/constructor-checks.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/target-version.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/target-version.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/css-selectors.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/target-version.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/target-version.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/element-selectors.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/target-version.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/target-version.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/input-names.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/target-version.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/target-version.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/method-call-checks.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/target-version.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/target-version.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/output-names.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/target-version.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/target-version.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/property-names.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/target-version.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/target-version.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts": [
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/attribute-selectors.ts",
@@ -2113,9 +2448,10 @@
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/property-names.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts"
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/target-version.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/html-parsing/elements.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/parse5/index.d.ts"
@@ -2123,50 +2459,77 @@
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/html-parsing/angular.ts": [
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/html-parsing/elements.ts"
       ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/node-package/install-task.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/node-package/options.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/node-package/link-task.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/node-package/options.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/repo-init/init-task.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/repo-init/options.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/run-schematic/task.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/run-schematic/options.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/tslint-fix/options.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/core/src/index.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/tslint-fix/task.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/core/src/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/tslint-fix/options.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/index.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/node-package/install-task.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/node-package/link-task.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/repo-init/init-task.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/run-schematic/task.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/tslint-fix/task.d.ts"
+      ],
       "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/glob/index.d.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/node/index.d.ts",
         "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/minimatch/index.d.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/parse-tsconfig.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts"
-      ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/index.ts": [
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/project-tsconfig-paths.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/core/src/index.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/glob/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/tslint-config.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/node/index.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/component-resource-collector.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/target-version.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/parse-tsconfig.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/target-version.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/utils/project-tsconfig-paths.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/core/src/index.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/index.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/@schematics/angular/utility/workspace-models.d.ts"
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/glob/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/project-tsconfig-paths.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/target-version.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/tslint-config.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/literal.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/attribute-selectors-rule.ts": [
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/external-failure-walker.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/node/index.d.ts",
         "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/component-resource-collector.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/attribute-selectors.ts",
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/literal.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/external-failure-walker.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/base-types.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts"
-      ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/class-inheritance-rule.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/chalk/index.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/property-names.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/base-types.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/imports.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts"
@@ -2175,111 +2538,25 @@
         "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/imports.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/class-names-rule.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/imports.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/module-specifiers.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
-      ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/constructor-signature-rule.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
-      ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/css-selectors-rule.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/component-resource-collector.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/css-selectors.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/literal.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
-      ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/element-selectors-rule.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/component-resource-collector.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/element-selectors.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/literal.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
-      ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/input-names-rule.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/index.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/component-resource-collector.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/literal.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
-      ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/method-call-arguments-rule.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
-      ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/misc-template-rule.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/index.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/component-resource-collector.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/literal.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
-      ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/output-names-rule.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/component-resource-collector.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/html-parsing/angular.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
-      ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/property-names-rule.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
-      ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/index.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/index.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/target-version.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/utils/project-tsconfig-paths.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/attribute-selectors-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/class-inheritance-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/class-names-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/constructor-signature-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/css-selectors-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/element-selectors-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/input-names-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/method-call-arguments-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/misc-template-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/output-names-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/property-names-rule.ts"
-      ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/public-api.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/target-version.ts",
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts",
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/html-parsing/angular.ts",
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/html-parsing/elements.ts",
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/index.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/tslint-config.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/external-failure-walker.ts",
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/base-types.ts",
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/imports.ts",
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/literal.ts",
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/module-specifiers.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/public-api.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/index.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/target-version.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/component-resource-collector.ts"
-      ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/index.ts": [
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/utils/index.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/public-api.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/public-api.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/public-api.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-add/package-config.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts"
@@ -2299,9 +2576,170 @@
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/index.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts",
         "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/chalk/index.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/target-version.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/target-version.ts",
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/index.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/index.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/tslint-config.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/attribute-selectors/attributeselectorsstringliteralrule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/chalk/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/attribute-selectors.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/literal.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/attribute-selectors/attributeselectorsstylesheetrule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/chalk/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/literal.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/attribute-selectors/attributeselectorstemplaterule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/chalk/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/literal.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/class-inheritance/classinheritancecheckrule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/chalk/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/property-names.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/base-types.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/class-names/classnamesidentifierrule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/chalk/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/imports.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/module-specifiers.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/css-selectors/cssselectorsstringliteralrule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/chalk/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/css-selectors.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/literal.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/css-selectors/cssselectorsstylesheetrule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/chalk/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/literal.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/css-selectors/cssselectorstemplaterule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/chalk/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/literal.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/element-selectors/elementselectorsstringliteralrule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/chalk/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/element-selectors.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/literal.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/element-selectors/elementselectorsstylesheetrule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/chalk/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/literal.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/element-selectors/elementselectorstemplaterule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/chalk/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/literal.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/input-names/inputnamesstylesheetrule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/chalk/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/literal.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/input-names/inputnamestemplaterule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/chalk/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/html-parsing/angular.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/misc-checks/checktemplatemiscrule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/chalk/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/literal.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/output-names/outputnamestemplaterule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/chalk/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/html-parsing/angular.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/property-names/propertynamesaccessrule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/chalk/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/signature-check/constructorsignaturecheckrule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/chalk/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/constructor-checks.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/signature-check/methodcallscheckrule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/chalk/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
       ]
     },
     "exportedModulesMap": {
@@ -2403,40 +2841,7 @@
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/index.ts": [
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/utils/index.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/public-api.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/public-api.ts"
-      ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/misc-template-rule.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/component-resource-collector.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
-      ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/index.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/index.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/target-version.ts",
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts"
-      ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/index.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts"
-      ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/public-api.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/html-parsing/angular.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/html-parsing/elements.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/index.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/base-types.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/imports.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/literal.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/module-specifiers.ts"
-      ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/input-names-rule.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/component-resource-collector.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/public-api.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tools/file-system-engine-host.d.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/rxjs/index.d.ts",
@@ -2503,91 +2908,179 @@
         "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/formats/index.d.ts",
         "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/workflow/index.d.ts"
       ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/index.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts"
+      ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-add/index.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-add/package-config.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/utils/project-tsconfig-paths.ts": [
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/index.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/target-version.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/tslint-config.ts",
         "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/index.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/public-api.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/target-version.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/html-parsing/angular.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/html-parsing/elements.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/index.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/tslint-config.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/external-failure-walker.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/base-types.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/imports.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/literal.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/module-specifiers.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/project-tsconfig-paths.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/tslint-fix/task.d.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/core/src/index.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/target-version.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts"
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/tslint-fix/options.d.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/public-api.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/index.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/target-version.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/component-resource-collector.ts"
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/index.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/node-package/install-task.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/node-package/link-task.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/repo-init/init-task.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/run-schematic/task.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/tslint-fix/task.d.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/target-version.ts"
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/run-schematic/task.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/run-schematic/options.d.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/constructor-signature-rule.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/repo-init/init-task.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/repo-init/options.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/node-package/link-task.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/node-package/options.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/node-package/install-task.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/node-package/options.d.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/target-version.ts",
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts"
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/property-names-rule.ts": [
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/signature-check/methodcallscheckrule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/signature-check/constructorsignaturecheckrule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/property-names/propertynamesaccessrule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/output-names/outputnamestemplaterule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/output-names-rule.ts": [
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/input-names/inputnamestemplaterule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/component-resource-collector.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/method-call-arguments-rule.ts": [
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/input-names/inputnamesstylesheetrule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/element-selectors-rule.ts": [
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/element-selectors/elementselectorstemplaterule.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/component-resource-collector.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
-      ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/css-selectors-rule.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/component-resource-collector.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
-      ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/class-names-rule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/class-inheritance-rule.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/property-names.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/element-selectors/elementselectorsstylesheetrule.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/attribute-selectors-rule.ts": [
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/element-selectors/elementselectorsstringliteralrule.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/component-resource-collector.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/element-selectors.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/css-selectors/cssselectorstemplaterule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/css-selectors/cssselectorsstylesheetrule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/css-selectors/cssselectorsstringliteralrule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/css-selectors.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/class-names/classnamesidentifierrule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/class-inheritance/classinheritancecheckrule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/property-names.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/attribute-selectors/attributeselectorstemplaterule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/attribute-selectors/attributeselectorsstylesheetrule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/attribute-selectors/attributeselectorsstringliteralrule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/tslint-config.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/target-version.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/property-names.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/index.ts": [
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/attribute-selectors.ts",
@@ -2601,35 +3094,28 @@
         "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/property-names.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/output-names.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/method-call-checks.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/input-names.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/element-selectors.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/css-selectors.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/constructor-checks.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/class-names.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/attribute-selectors.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts"
-      ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/line-mappings.ts",
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/target-version.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/component-resource-collector.ts",
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts"
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/utils/html-head-element.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/src/index.d.ts",
@@ -2790,6 +3276,9 @@
         "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/core/src/exception/exception.d.ts",
         "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/core/src/utils/index.d.ts",
         "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/core/src/virtual-fs/index.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/tslint-fix/options.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/core/src/index.d.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/node_modules/@schematics/angular/utility/parse-name.d.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/core/src/index.d.ts"
@@ -3356,6 +3845,12 @@
         "c:/users/a.boisier-michaud/desktop/components/node_modules/@schematics/angular/third_party/github.com/microsoft/typescript/lib/typescript.d.ts",
         "c:/users/a.boisier-michaud/desktop/components/node_modules/@schematics/angular/utility/change.d.ts"
       ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/misc-checks/checktemplatemiscrule.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts"
+      ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/module-specifiers.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts"
       ],
@@ -3365,31 +3860,202 @@
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/base-types.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts"
       ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/external-failure-walker.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/external-failure-walker.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts"
+      ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/literal.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/parse-tsconfig.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts"
-      ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/component-resource-collector.ts": [
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/utils.d.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/line-mappings.ts"
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/property-name.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts"
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/configuration.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/rules.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/test.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/utils.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/linter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/enabledisablerules.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatterloader.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/ruleloader.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/utils.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/index.d.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/functions.ts": [
-        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts"
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatterloader.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/decorators.ts": [
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/linter.d.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
-        "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/imports.ts"
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/configuration.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
       ],
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/imports.ts": [
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/enabledisablerules.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/utils.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/node/index.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/optionallytypedrule.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/abstractrule.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/rules.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/abstractrule.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/typedrule.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/optionallytypedrule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/typedrule.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/abstractrule.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/abstractrule.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/index.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/index.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/ruleloader.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/junitformatter.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/abstractformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/index.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/jsonformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/pmdformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/proseformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/verboseformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/stylishformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/fileslistformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/codeframeformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/tapformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/junitformatter.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/abstractformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/index.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/tapformatter.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/abstractformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/codeframeformatter.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/abstractformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/fileslistformatter.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/abstractformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/stylishformatter.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/abstractformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/verboseformatter.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/abstractformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/proseformatter.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/abstractformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/pmdformatter.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/abstractformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/jsonformatter.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/abstractformatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/abstractformatter.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/configuration.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/programawarerulewalker.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/rulewalker.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/index.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/blockscopeawarerulewalker.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/programawarerulewalker.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/rulewalker.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/scopeawarerulewalker.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/syntaxwalker.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/walkcontext.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/walker.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/blockscopeawarerulewalker.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/scopeawarerulewalker.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/scopeawarerulewalker.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/rulewalker.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/rulewalker.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/syntaxwalker.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/walker.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/walker.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/walkcontext.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/walkcontext.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/syntaxwalker.d.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/typescript/lib/typescript.d.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/html-parsing/elements.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/parse5/index.d.ts"
+      ],
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/test.d.ts": [
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/runner.d.ts",
+        "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/verify/linterror.d.ts"
       ],
       "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/glob/index.d.ts": [
         "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/node/index.d.ts",
@@ -3617,15 +4283,44 @@
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/utils/html-head-element.ts",
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/utils/project-style-file.ts",
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/utils/index.ts",
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/imports.ts",
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/decorators.ts",
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/functions.ts",
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/line-mappings.ts",
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/property-name.ts",
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/component-resource-collector.ts",
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/target-version.ts",
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/migration-rule.ts",
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/version-changes.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/target-version.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/syntaxwalker.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/walkcontext.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/walker.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/rulewalker.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/scopeawarerulewalker.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/blockscopeawarerulewalker.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/programawarerulewalker.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/walker/index.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/rule.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/configuration.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/formatter.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/formatter/abstractformatter.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/jsonformatter.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/pmdformatter.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/proseformatter.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/verboseformatter.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/stylishformatter.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/fileslistformatter.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/codeframeformatter.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/tapformatter.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/junitformatter.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters/index.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatters.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/abstractrule.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/typedrule.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/rule/optionallytypedrule.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/rules.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/runner.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/verify/linterror.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/test.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/utils.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/linter.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/enabledisablerules.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/formatterloader.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/ruleloader.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/language/utils.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/tslint/lib/index.d.ts",
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/attribute-selectors.ts",
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/class-names.ts",
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/data/constructor-checks.ts",
@@ -3639,38 +4334,56 @@
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-data.ts",
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/html-parsing/elements.ts",
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/html-parsing/angular.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/node-package/options.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/node-package/install-task.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/node-package/link-task.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/repo-init/options.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/repo-init/init-task.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/run-schematic/options.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/run-schematic/task.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/tslint-fix/options.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/tslint-fix/task.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@angular-devkit/schematics/tasks/index.d.ts",
       "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/events/index.d.ts",
       "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/minimatch/index.d.ts",
       "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/glob/index.d.ts",
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/utils/parse-tsconfig.ts",
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/index.ts",
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/utils/project-tsconfig-paths.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/project-tsconfig-paths.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/tslint-config.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/index.ts",
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/literal.ts",
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/attribute-selectors-rule.ts",
-      "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/chalk/index.d.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-file.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/external-failure-walker.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/tslint/component-walker.ts",
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/base-types.ts",
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/class-inheritance-rule.ts",
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/imports.ts",
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/typescript/module-specifiers.ts",
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/class-names-rule.ts",
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/constructor-signature-rule.ts",
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/css-selectors-rule.ts",
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/element-selectors-rule.ts",
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/input-names-rule.ts",
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/method-call-arguments-rule.ts",
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/misc-template-rule.ts",
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/output-names-rule.ts",
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/property-names-rule.ts",
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/index.ts",
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/public-api.ts",
-      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/update-tool/public-api.ts",
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/index.ts",
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-add/package-config.ts",
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-add/index.ts",
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-add/schema.ts",
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-generate/drag-drop/schema.ts",
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-generate/drag-drop/index.ts",
+      "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/chalk/index.d.ts",
       "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/index.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/attribute-selectors/attributeselectorsstringliteralrule.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/attribute-selectors/attributeselectorsstylesheetrule.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/attribute-selectors/attributeselectorstemplaterule.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/class-inheritance/classinheritancecheckrule.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/class-names/classnamesidentifierrule.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/css-selectors/cssselectorsstringliteralrule.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/css-selectors/cssselectorsstylesheetrule.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/css-selectors/cssselectorstemplaterule.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/element-selectors/elementselectorsstringliteralrule.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/element-selectors/elementselectorsstylesheetrule.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/element-selectors/elementselectorstemplaterule.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/input-names/inputnamesstylesheetrule.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/input-names/inputnamestemplaterule.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/misc-checks/checktemplatemiscrule.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/output-names/outputnamestemplaterule.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/property-names/propertynamesaccessrule.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/signature-check/constructorsignaturecheckrule.ts",
+      "c:/users/a.boisier-michaud/desktop/components/src/cdk/schematics/ng-update/upgrade-rules/signature-check/methodcallscheckrule.ts",
       "c:/users/a.boisier-michaud/desktop/components/node_modules/@types/jasmine/index.d.ts"
     ]
   },

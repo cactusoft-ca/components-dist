@@ -371,18 +371,16 @@ NestedTreeControl = /** @class */ (function (_super) {
             function (child) { return _this._getDescendants(descendants, child); }));
         }
         else if (childrenNodes instanceof rxjs.Observable) {
-            // TypeScript as of version 3.5 doesn't seem to treat `Boolean` like a function that
-            // returns a `boolean` specifically in the context of `filter`, so we manually clarify that.
-            childrenNodes.pipe(operators.take(1), operators.filter((/** @type {?} */ (Boolean))))
-                .subscribe((/**
+            childrenNodes.pipe(operators.take(1), operators.filter(Boolean)).subscribe((/**
              * @param {?} children
              * @return {?}
              */
             function (children) {
-                for (var _i = 0, children_1 = children; _i < children_1.length; _i++) {
-                    var child = children_1[_i];
-                    _this._getDescendants(descendants, child);
-                }
+                children.forEach((/**
+                 * @param {?} child
+                 * @return {?}
+                 */
+                function (child) { return _this._getDescendants(descendants, child); }));
             }));
         }
     };

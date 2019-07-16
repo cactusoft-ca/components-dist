@@ -224,17 +224,16 @@ class NestedTreeControl extends BaseTreeControl {
             (child) => this._getDescendants(descendants, child)));
         }
         else if (childrenNodes instanceof Observable) {
-            // TypeScript as of version 3.5 doesn't seem to treat `Boolean` like a function that
-            // returns a `boolean` specifically in the context of `filter`, so we manually clarify that.
-            childrenNodes.pipe(take(1), filter((/** @type {?} */ (Boolean))))
-                .subscribe((/**
+            childrenNodes.pipe(take(1), filter(Boolean)).subscribe((/**
              * @param {?} children
              * @return {?}
              */
             children => {
-                for (const child of children) {
-                    this._getDescendants(descendants, child);
-                }
+                children.forEach((/**
+                 * @param {?} child
+                 * @return {?}
+                 */
+                (child) => this._getDescendants(descendants, child)));
             }));
         }
     }
