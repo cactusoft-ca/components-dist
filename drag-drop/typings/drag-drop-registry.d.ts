@@ -21,8 +21,10 @@ export declare class DragDropRegistry<I, C extends {
     private _dropInstances;
     /** Registered drag item instances. */
     private _dragInstances;
+    /** Drag item instances for which a drag sequence has been initialized. */
+    private _initializedDragSequences;
     /** Drag item instances that are currently being dragged. */
-    private _activeDragInstances;
+    private _startedDragSequences;
     /** Keeps track of the event listeners that we've bound to the `document`. */
     private _globalListeners;
     /**
@@ -35,6 +37,8 @@ export declare class DragDropRegistry<I, C extends {
      * while the user is dragging a drag item instance.
      */
     readonly pointerUp: Subject<TouchEvent | MouseEvent>;
+    /** Emits when the viewport has been scrolled while the user is dragging an item. */
+    readonly scroll: Subject<Event>;
     constructor(_ngZone: NgZone, _document: any);
     /** Adds a drop container to the registry. */
     registerDropContainer(drop: C): void;
@@ -49,7 +53,8 @@ export declare class DragDropRegistry<I, C extends {
      * @param drag Drag instance which is being dragged.
      * @param event Event that initiated the dragging.
      */
-    startDragging(drag: I, event: TouchEvent | MouseEvent): void;
+    initializeDragging(drag: I, event: TouchEvent | MouseEvent): void;
+    startDragging(drag: I): void;
     /** Stops dragging a drag item instance. */
     stopDragging(drag: I): void;
     /** Gets whether a drag item instance is currently being dragged. */

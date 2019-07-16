@@ -7,12 +7,12 @@
  */
 import { normalizePassiveListenerOptions } from '@angular/cdk/platform';
 import { coerceBooleanProperty, coerceElement, coerceNumberProperty, coerceArray } from '@angular/cdk/coercion';
-import { Subscription, Subject, Observable, merge } from 'rxjs';
+import { Subscription, Subject, interval, animationFrameScheduler, Observable, merge } from 'rxjs';
+import { startWith, takeUntil, take, map, switchMap, tap } from 'rxjs/operators';
 import { ElementRef, Injectable, NgZone, Inject, InjectionToken, NgModule, ContentChildren, EventEmitter, forwardRef, Input, Output, Optional, Directive, ChangeDetectorRef, SkipSelf, ContentChild, ViewContainerRef, isDevMode, TemplateRef, ɵɵdefineInjectable, ɵɵinject } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
 import { ViewportRuler } from '@angular/cdk/scrolling';
 import { Directionality } from '@angular/cdk/bidi';
-import { startWith, take, map, takeUntil, switchMap, tap } from 'rxjs/operators';
 
 /**
  * @fileoverview added by tsickle
@@ -181,6 +181,10 @@ DragRef = /** @class */ (function () {
          */
         this._pointerUpSubscription = Subscription.EMPTY;
         /**
+         * Subscription to the viewport being scrolled.
+         */
+        this._scrollSubscription = Subscription.EMPTY;
+        /**
          * Cached reference to the boundary element.
          */
         this._boundaryElement = null;
@@ -285,17 +289,20 @@ DragRef = /** @class */ (function () {
                 var distanceY = Math.abs(pointerPosition.y - _this._pickupPositionOnPage.y);
                 /** @type {?} */
                 var isOverThreshold = distanceX + distanceY >= _this._config.dragStartThreshold;
-                /** @type {?} */
-                var isDelayElapsed = (Date.now() >= _this._dragStartTime + (_this.dragStartDelay || 0));
                 // Only start dragging after the user has moved more than the minimum distance in either
                 // direction. Note that this is preferrable over doing something like `skip(minimumDistance)`
                 // in the `pointerMove` subscription, because we're not guaranteed to have one move event
                 // per pixel of movement (e.g. if the user moves their pointer quickly).
                 if (isOverThreshold) {
+                    /** @type {?} */
+                    var isDelayElapsed = Date.now() >= _this._dragStartTime + (_this.dragStartDelay || 0);
                     if (!isDelayElapsed) {
                         _this._endDragSequence(event);
                         return;
                     }
+                    // We need to prevent default here in case the pointer move starts a scroll sequence. If we do not
+                    // prevent the scroll from starting, then we won't be able to prevent future touchemove events.
+                    event.preventDefault();
                     // Prevent other drag sequences from starting while something in the container is still
                     // being dragged. This can happen while we're waiting for the drop animation to finish
                     // and can cause errors, because some elements might still be moving around.
@@ -367,57 +374,6 @@ DragRef = /** @class */ (function () {
          */
         function (event) {
             _this._endDragSequence(event);
-        });
-        /**
-         * Clears subscriptions and stops the dragging sequence.
-         * @param event Browser event object that ended the sequence.
-         */
-        this._endDragSequence = (/**
-         * @param {?} event
-         * @return {?}
-         */
-        function (event) {
-            // Note that here we use `isDragging` from the service, rather than from `this`.
-            // The difference is that the one from the service reflects whether a dragging sequence
-            // has been initiated, whereas the one on `this` includes whether the user has passed
-            // the minimum dragging threshold.
-            if (!_this._dragDropRegistry.isDragging(_this)) {
-                return;
-            }
-            _this._removeSubscriptions();
-            _this._dragDropRegistry.stopDragging(_this);
-            if (_this._handles) {
-                _this._rootElement.style.webkitTapHighlightColor = _this._rootElementTapHighlight;
-            }
-            if (!_this._hasStartedDragging) {
-                return;
-            }
-            _this.released.next({ source: _this });
-            if (!_this._dropContainer) {
-                // Convert the active transform into a passive one. This means that next time
-                // the user starts dragging the item, its position will be calculated relatively
-                // to the new passive transform.
-                _this._passiveTransform.x = _this._activeTransform.x;
-                _this._passiveTransform.y = _this._activeTransform.y;
-                _this._ngZone.run((/**
-                 * @return {?}
-                 */
-                function () {
-                    _this.ended.next({
-                        source: _this,
-                        distance: _this._getDragDistance(_this._getPointerPositionOnPage(event))
-                    });
-                }));
-                _this._dragDropRegistry.stopDragging(_this);
-                return;
-            }
-            _this._animatePreviewToPlaceholder().then((/**
-             * @return {?}
-             */
-            function () {
-                _this._cleanupDragArtifacts(event);
-                _this._dragDropRegistry.stopDragging(_this);
-            }));
         });
         this.withRootElement(element);
         _dragDropRegistry.registerDragItem(this);
@@ -749,7 +705,9 @@ DragRef = /** @class */ (function () {
      * @return {?}
      */
     function () {
-        return { x: this._passiveTransform.x, y: this._passiveTransform.y };
+        /** @type {?} */
+        var position = this.isDragging() ? this._activeTransform : this._passiveTransform;
+        return { x: position.x, y: position.y };
     };
     /**
      * Sets the current position in pixels the draggable outside of a drop container.
@@ -778,6 +736,22 @@ DragRef = /** @class */ (function () {
         }
         return (/** @type {?} */ (this));
     };
+    /** Updates the item's sort order based on the last-known pointer position. */
+    /**
+     * Updates the item's sort order based on the last-known pointer position.
+     * @return {?}
+     */
+    DragRef.prototype._sortFromLastPointerPosition = /**
+     * Updates the item's sort order based on the last-known pointer position.
+     * @return {?}
+     */
+    function () {
+        /** @type {?} */
+        var position = this._pointerPositionAtLastDirectionChange;
+        if (position && this._dropContainer) {
+            this._updateActiveDropContainer(position);
+        }
+    };
     /** Unsubscribes from the global subscriptions. */
     /**
      * Unsubscribes from the global subscriptions.
@@ -792,6 +766,7 @@ DragRef = /** @class */ (function () {
     function () {
         this._pointerMoveSubscription.unsubscribe();
         this._pointerUpSubscription.unsubscribe();
+        this._scrollSubscription.unsubscribe();
     };
     /** Destroys the preview element and its ViewRef. */
     /**
@@ -833,6 +808,70 @@ DragRef = /** @class */ (function () {
         }
         this._placeholder = this._placeholderRef = (/** @type {?} */ (null));
     };
+    /**
+     * Clears subscriptions and stops the dragging sequence.
+     * @param event Browser event object that ended the sequence.
+     */
+    /**
+     * Clears subscriptions and stops the dragging sequence.
+     * @private
+     * @param {?} event Browser event object that ended the sequence.
+     * @return {?}
+     */
+    DragRef.prototype._endDragSequence = /**
+     * Clears subscriptions and stops the dragging sequence.
+     * @private
+     * @param {?} event Browser event object that ended the sequence.
+     * @return {?}
+     */
+    function (event) {
+        var _this = this;
+        toggleNativeDragInteractions(this._rootElement, true);
+        // Note that here we use `isDragging` from the service, rather than from `this`.
+        // The difference is that the one from the service reflects whether a dragging sequence
+        // has been initiated, whereas the one on `this` includes whether the user has passed
+        // the minimum dragging threshold.
+        if (!this._dragDropRegistry.isDragging(this)) {
+            return;
+        }
+        this._removeSubscriptions();
+        this._dragDropRegistry.stopDragging(this);
+        if (this._handles) {
+            this._rootElement.style.webkitTapHighlightColor = this._rootElementTapHighlight;
+        }
+        if (!this._hasStartedDragging) {
+            return;
+        }
+        this.released.next({ source: this });
+        if (this._dropContainer) {
+            // Stop scrolling immediately, instead of waiting for the animation to finish.
+            this._dropContainer._stopScrolling();
+            this._animatePreviewToPlaceholder().then((/**
+             * @return {?}
+             */
+            function () {
+                _this._cleanupDragArtifacts(event);
+                _this._dragDropRegistry.stopDragging(_this);
+            }));
+        }
+        else {
+            // Convert the active transform into a passive one. This means that next time
+            // the user starts dragging the item, its position will be calculated relatively
+            // to the new passive transform.
+            this._passiveTransform.x = this._activeTransform.x;
+            this._passiveTransform.y = this._activeTransform.y;
+            this._ngZone.run((/**
+             * @return {?}
+             */
+            function () {
+                _this.ended.next({
+                    source: _this,
+                    distance: _this._getDragDistance(_this._getPointerPositionOnPage(event))
+                });
+            }));
+            this._dragDropRegistry.stopDragging(this);
+        }
+    };
     /** Starts the dragging sequence. */
     /**
      * Starts the dragging sequence.
@@ -847,6 +886,7 @@ DragRef = /** @class */ (function () {
      * @return {?}
      */
     function (event) {
+        this._dragDropRegistry.startDragging(this);
         // Emit the event on the item before the one on the container.
         this.started.next({ source: this });
         if (isTouchEvent(event)) {
@@ -895,6 +935,7 @@ DragRef = /** @class */ (function () {
      * @return {?}
      */
     function (referenceElement, event) {
+        var _this = this;
         // Always stop propagation for the event that initializes
         // the dragging sequence, in order to prevent it from potentially
         // starting another sequence for a draggable parent somewhere up the DOM tree.
@@ -937,7 +978,12 @@ DragRef = /** @class */ (function () {
         this._removeSubscriptions();
         this._pointerMoveSubscription = this._dragDropRegistry.pointerMove.subscribe(this._pointerMove);
         this._pointerUpSubscription = this._dragDropRegistry.pointerUp.subscribe(this._pointerUp);
-        this._scrollPosition = this._viewportRuler.getViewportScrollPosition();
+        this._scrollSubscription = this._dragDropRegistry.scroll.pipe(startWith(null)).subscribe((/**
+         * @return {?}
+         */
+        function () {
+            _this._scrollPosition = _this._viewportRuler.getViewportScrollPosition();
+        }));
         if (this._boundaryElement) {
             this._boundaryRect = this._boundaryElement.getBoundingClientRect();
         }
@@ -951,7 +997,7 @@ DragRef = /** @class */ (function () {
         this._pointerDirectionDelta = { x: 0, y: 0 };
         this._pointerPositionAtLastDirectionChange = { x: pointerPosition.x, y: pointerPosition.y };
         this._dragStartTime = Date.now();
-        this._dragDropRegistry.startDragging(this, event);
+        this._dragDropRegistry.initializeDragging(this, event);
     };
     /** Cleans up the DOM artifacts that were added to facilitate the element being dragged. */
     /**
@@ -1061,6 +1107,7 @@ DragRef = /** @class */ (function () {
                 });
             }));
         }
+        (/** @type {?} */ (this._dropContainer))._startScrollingIfNecessary(x, y);
         (/** @type {?} */ (this._dropContainer))._sortItem(this, x, y, this._pointerDirectionDelta);
         this._preview.style.transform =
             getTransform(x - this._pickupPositionInElement.x, y - this._pickupPositionInElement.y);
@@ -1289,7 +1336,7 @@ DragRef = /** @class */ (function () {
         /** @type {?} */
         var point = this._getPointerPositionOnPage(event);
         /** @type {?} */
-        var constrainedPoint = this.constrainPosition ? this.constrainPosition(point) : point;
+        var constrainedPoint = this.constrainPosition ? this.constrainPosition(point, this) : point;
         /** @type {?} */
         var dropContainerLock = this._dropContainer ? this._dropContainer.lockAxis : null;
         if (this.lockAxis === 'x' || dropContainerLock === 'x') {
@@ -1522,7 +1569,10 @@ function removeElement(element) {
  * @return {?}
  */
 function isTouchEvent(event) {
-    return event.type.startsWith('touch');
+    // This function is called for every pixel that the user has dragged so we need it to be
+    // as fast as possible. Since we only bind mouse events and touch events, we can assume
+    // that if the event's name starts with `t`, it's a touch event.
+    return event.type[0] === 't';
 }
 /**
  * Gets the element into which the drag preview should be inserted.
@@ -1632,6 +1682,18 @@ var _uniqueIdCounter = 0;
  */
 var DROP_PROXIMITY_THRESHOLD = 0.05;
 /**
+ * Proximity, as a ratio to width/height at which to start auto-scrolling the drop list or the
+ * viewport. The value comes from trying it out manually until it feels right.
+ * @type {?}
+ */
+var SCROLL_PROXIMITY_THRESHOLD = 0.05;
+/**
+ * Number of pixels to scroll for each frame when auto-scrolling an element.
+ * The value comes from trying it out manually until it feels right.
+ * @type {?}
+ */
+var AUTO_SCROLL_STEP = 2;
+/**
  * Reference to a drop list. Used to manipulate or dispose of the container.
  * \@docs-private
  * @template T
@@ -1642,8 +1704,11 @@ var  /**
  * @template T
  */
 DropListRef = /** @class */ (function () {
-    function DropListRef(element, _dragDropRegistry, _document) {
+    function DropListRef(element, _dragDropRegistry, _document, _ngZone, _viewportRuler) {
+        var _this = this;
         this._dragDropRegistry = _dragDropRegistry;
+        this._ngZone = _ngZone;
+        this._viewportRuler = _viewportRuler;
         /**
          * Unique ID for the drop list.
          * @deprecated No longer being used. To be removed.
@@ -1658,6 +1723,11 @@ DropListRef = /** @class */ (function () {
          * Whether sorting items within the list is disabled.
          */
         this.sortingDisabled = true;
+        /**
+         * Whether auto-scrolling the view when the user
+         * moves their pointer close to the edges is disabled.
+         */
+        this.autoScrollDisabled = false;
         /**
          * Function that is used to determine whether an item
          * is allowed to be moved into a drop container.
@@ -1696,6 +1766,14 @@ DropListRef = /** @class */ (function () {
          */
         this._itemPositions = [];
         /**
+         * Keeps track of the container's scroll position.
+         */
+        this._scrollPosition = { top: 0, left: 0 };
+        /**
+         * Keeps track of the scroll position of the viewport.
+         */
+        this._viewportScrollPosition = { top: 0, left: 0 };
+        /**
          * Keeps track of the item that was last swapped with the dragged item, as
          * well as what direction the pointer was moving in when the swap occured.
          */
@@ -1716,6 +1794,66 @@ DropListRef = /** @class */ (function () {
          * Layout direction of the drop list.
          */
         this._direction = 'ltr';
+        /**
+         * Subscription to the window being scrolled.
+         */
+        this._viewportScrollSubscription = Subscription.EMPTY;
+        /**
+         * Vertical direction in which the list is currently scrolling.
+         */
+        this._verticalScrollDirection = 0 /* NONE */;
+        /**
+         * Horizontal direction in which the list is currently scrolling.
+         */
+        this._horizontalScrollDirection = 0 /* NONE */;
+        /**
+         * Used to signal to the current auto-scroll sequence when to stop.
+         */
+        this._stopScrollTimers = new Subject();
+        /**
+         * Handles the container being scrolled. Has to be an arrow function to preserve the context.
+         */
+        this._handleScroll = (/**
+         * @return {?}
+         */
+        function () {
+            if (!_this.isDragging()) {
+                return;
+            }
+            /** @type {?} */
+            var element = coerceElement(_this.element);
+            _this._updateAfterScroll(_this._scrollPosition, element.scrollTop, element.scrollLeft);
+        });
+        /**
+         * Starts the interval that'll auto-scroll the element.
+         */
+        this._startScrollInterval = (/**
+         * @return {?}
+         */
+        function () {
+            _this._stopScrolling();
+            interval(0, animationFrameScheduler)
+                .pipe(takeUntil(_this._stopScrollTimers))
+                .subscribe((/**
+             * @return {?}
+             */
+            function () {
+                /** @type {?} */
+                var node = _this._scrollNode;
+                if (_this._verticalScrollDirection === 1 /* UP */) {
+                    incrementVerticalScroll(node, -AUTO_SCROLL_STEP);
+                }
+                else if (_this._verticalScrollDirection === 2 /* DOWN */) {
+                    incrementVerticalScroll(node, AUTO_SCROLL_STEP);
+                }
+                if (_this._horizontalScrollDirection === 1 /* LEFT */) {
+                    incrementHorizontalScroll(node, -AUTO_SCROLL_STEP);
+                }
+                else if (_this._horizontalScrollDirection === 2 /* RIGHT */) {
+                    incrementHorizontalScroll(node, AUTO_SCROLL_STEP);
+                }
+            }));
+        });
         _dragDropRegistry.registerDropContainer(this);
         this._document = _document;
         this.element = element instanceof ElementRef ? element.nativeElement : element;
@@ -1730,12 +1868,16 @@ DropListRef = /** @class */ (function () {
      * @return {?}
      */
     function () {
+        this._stopScrolling();
+        this._stopScrollTimers.complete();
+        this._removeListeners();
         this.beforeStarted.complete();
         this.entered.complete();
         this.exited.complete();
         this.dropped.complete();
         this.sorted.complete();
         this._activeSiblings.clear();
+        this._scrollNode = (/** @type {?} */ (null));
         this._dragDropRegistry.removeDropContainer(this);
     };
     /** Whether an item from this list is currently being dragged. */
@@ -1761,6 +1903,8 @@ DropListRef = /** @class */ (function () {
      */
     function () {
         var _this = this;
+        /** @type {?} */
+        var element = coerceElement(this.element);
         this.beforeStarted.next();
         this._isDragging = true;
         this._cacheItems();
@@ -1769,6 +1913,31 @@ DropListRef = /** @class */ (function () {
          * @return {?}
          */
         function (sibling) { return sibling._startReceiving(_this); }));
+        this._removeListeners();
+        // @breaking-change 9.0.0 Remove check for _ngZone once it's marked as a required param.
+        if (this._ngZone) {
+            this._ngZone.runOutsideAngular((/**
+             * @return {?}
+             */
+            function () { return element.addEventListener('scroll', _this._handleScroll); }));
+        }
+        else {
+            element.addEventListener('scroll', this._handleScroll);
+        }
+        // @breaking-change 9.0.0 Remove check for _viewportRuler once it's marked as a required param.
+        if (this._viewportRuler) {
+            this._viewportScrollPosition = this._viewportRuler.getViewportScrollPosition();
+            this._viewportScrollSubscription = this._dragDropRegistry.scroll.subscribe((/**
+             * @return {?}
+             */
+            function () {
+                if (_this.isDragging()) {
+                    /** @type {?} */
+                    var newPosition = (/** @type {?} */ (_this._viewportRuler)).getViewportScrollPosition();
+                    _this._updateAfterScroll(_this._viewportScrollPosition, newPosition.top, newPosition.left, _this._clientRect);
+                }
+            }));
+        }
     };
     /**
      * Emits an event to indicate that the user moved an item into the container.
@@ -2152,6 +2321,91 @@ DropListRef = /** @class */ (function () {
             }
         }));
     };
+    /**
+     * Checks whether the user's pointer is close to the edges of either the
+     * viewport or the drop list and starts the auto-scroll sequence.
+     * @param pointerX User's pointer position along the x axis.
+     * @param pointerY User's pointer position along the y axis.
+     */
+    /**
+     * Checks whether the user's pointer is close to the edges of either the
+     * viewport or the drop list and starts the auto-scroll sequence.
+     * @param {?} pointerX User's pointer position along the x axis.
+     * @param {?} pointerY User's pointer position along the y axis.
+     * @return {?}
+     */
+    DropListRef.prototype._startScrollingIfNecessary = /**
+     * Checks whether the user's pointer is close to the edges of either the
+     * viewport or the drop list and starts the auto-scroll sequence.
+     * @param {?} pointerX User's pointer position along the x axis.
+     * @param {?} pointerY User's pointer position along the y axis.
+     * @return {?}
+     */
+    function (pointerX, pointerY) {
+        if (this.autoScrollDisabled) {
+            return;
+        }
+        /** @type {?} */
+        var scrollNode;
+        /** @type {?} */
+        var verticalScrollDirection = 0 /* NONE */;
+        /** @type {?} */
+        var horizontalScrollDirection = 0 /* NONE */;
+        // @breaking-change 9.0.0 Remove null check for _viewportRuler once it's a required parameter.
+        // Check whether we're in range to scroll the viewport.
+        if (this._viewportRuler) {
+            var _a = this._viewportRuler.getViewportSize(), width = _a.width, height = _a.height;
+            /** @type {?} */
+            var clientRect = { width: width, height: height, top: 0, right: width, bottom: height, left: 0 };
+            verticalScrollDirection = getVerticalScrollDirection(clientRect, pointerY);
+            horizontalScrollDirection = getHorizontalScrollDirection(clientRect, pointerX);
+            scrollNode = window;
+        }
+        // If we couldn't find a scroll direction based on the
+        // window, try with the container, if the pointer is close by.
+        if (!verticalScrollDirection && !horizontalScrollDirection &&
+            this._isPointerNearDropContainer(pointerX, pointerY)) {
+            verticalScrollDirection = getVerticalScrollDirection(this._clientRect, pointerY);
+            horizontalScrollDirection = getHorizontalScrollDirection(this._clientRect, pointerX);
+            scrollNode = coerceElement(this.element);
+        }
+        // TODO(crisbeto): we also need to account for whether the view or element are scrollable in
+        // the first place. With the current approach we'll still try to scroll them, but it just
+        // won't do anything. The only case where this is relevant is that if we have a scrollable
+        // list close to the viewport edge where the viewport isn't scrollable. In this case the
+        // we'll be trying to scroll the viewport rather than the list.
+        if (scrollNode && (verticalScrollDirection !== this._verticalScrollDirection ||
+            horizontalScrollDirection !== this._horizontalScrollDirection ||
+            scrollNode !== this._scrollNode)) {
+            this._verticalScrollDirection = verticalScrollDirection;
+            this._horizontalScrollDirection = horizontalScrollDirection;
+            this._scrollNode = scrollNode;
+            if ((verticalScrollDirection || horizontalScrollDirection) && scrollNode) {
+                // @breaking-change 9.0.0 Remove null check for `_ngZone` once it is made required.
+                if (this._ngZone) {
+                    this._ngZone.runOutsideAngular(this._startScrollInterval);
+                }
+                else {
+                    this._startScrollInterval();
+                }
+            }
+            else {
+                this._stopScrolling();
+            }
+        }
+    };
+    /** Stops any currently-running auto-scroll sequences. */
+    /**
+     * Stops any currently-running auto-scroll sequences.
+     * @return {?}
+     */
+    DropListRef.prototype._stopScrolling = /**
+     * Stops any currently-running auto-scroll sequences.
+     * @return {?}
+     */
+    function () {
+        this._stopScrollTimers.next();
+    };
     /** Caches the position of the drop list. */
     /**
      * Caches the position of the drop list.
@@ -2164,7 +2418,10 @@ DropListRef = /** @class */ (function () {
      * @return {?}
      */
     function () {
-        this._clientRect = coerceElement(this.element).getBoundingClientRect();
+        /** @type {?} */
+        var element = coerceElement(this.element);
+        this._clientRect = getMutableClientRect(element);
+        this._scrollPosition = { top: element.scrollTop, left: element.scrollLeft };
     };
     /** Refreshes the position cache of the items and sibling containers. */
     /**
@@ -2192,24 +2449,7 @@ DropListRef = /** @class */ (function () {
                 // placeholder, because the element is hidden.
                 drag.getPlaceholderElement() :
                 drag.getRootElement();
-            /** @type {?} */
-            var clientRect = elementToMeasure.getBoundingClientRect();
-            return {
-                drag: drag,
-                offset: 0,
-                // We need to clone the `clientRect` here, because all the values on it are readonly
-                // and we need to be able to update them. Also we can't use a spread here, because
-                // the values on a `ClientRect` aren't own properties. See:
-                // https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect#Notes
-                clientRect: {
-                    top: clientRect.top,
-                    right: clientRect.right,
-                    bottom: clientRect.bottom,
-                    left: clientRect.left,
-                    width: clientRect.width,
-                    height: clientRect.height
-                }
-            };
+            return { drag: drag, offset: 0, clientRect: getMutableClientRect(elementToMeasure) };
         })).sort((/**
          * @param {?} a
          * @param {?} b
@@ -2249,6 +2489,8 @@ DropListRef = /** @class */ (function () {
         this._itemPositions = [];
         this._previousSwap.drag = null;
         this._previousSwap.delta = 0;
+        this._stopScrolling();
+        this._removeListeners();
     };
     /**
      * Gets the offset in pixels by which the items that aren't being dragged should be moved.
@@ -2437,6 +2679,89 @@ DropListRef = /** @class */ (function () {
         this._cacheOwnPosition();
     };
     /**
+     * Updates the internal state of the container after a scroll event has happened.
+     * @param scrollPosition Object that is keeping track of the scroll position.
+     * @param newTop New top scroll position.
+     * @param newLeft New left scroll position.
+     * @param extraClientRect Extra `ClientRect` object that should be updated, in addition to the
+     *  ones of the drag items. Useful when the viewport has been scrolled and we also need to update
+     *  the `ClientRect` of the list.
+     */
+    /**
+     * Updates the internal state of the container after a scroll event has happened.
+     * @private
+     * @param {?} scrollPosition Object that is keeping track of the scroll position.
+     * @param {?} newTop New top scroll position.
+     * @param {?} newLeft New left scroll position.
+     * @param {?=} extraClientRect Extra `ClientRect` object that should be updated, in addition to the
+     *  ones of the drag items. Useful when the viewport has been scrolled and we also need to update
+     *  the `ClientRect` of the list.
+     * @return {?}
+     */
+    DropListRef.prototype._updateAfterScroll = /**
+     * Updates the internal state of the container after a scroll event has happened.
+     * @private
+     * @param {?} scrollPosition Object that is keeping track of the scroll position.
+     * @param {?} newTop New top scroll position.
+     * @param {?} newLeft New left scroll position.
+     * @param {?=} extraClientRect Extra `ClientRect` object that should be updated, in addition to the
+     *  ones of the drag items. Useful when the viewport has been scrolled and we also need to update
+     *  the `ClientRect` of the list.
+     * @return {?}
+     */
+    function (scrollPosition, newTop, newLeft, extraClientRect) {
+        var _this = this;
+        /** @type {?} */
+        var topDifference = scrollPosition.top - newTop;
+        /** @type {?} */
+        var leftDifference = scrollPosition.left - newLeft;
+        if (extraClientRect) {
+            adjustClientRect(extraClientRect, topDifference, leftDifference);
+        }
+        // Since we know the amount that the user has scrolled we can shift all of the client rectangles
+        // ourselves. This is cheaper than re-measuring everything and we can avoid inconsistent
+        // behavior where we might be measuring the element before its position has changed.
+        this._itemPositions.forEach((/**
+         * @param {?} __0
+         * @return {?}
+         */
+        function (_a) {
+            var clientRect = _a.clientRect;
+            adjustClientRect(clientRect, topDifference, leftDifference);
+        }));
+        // We need two loops for this, because we want all of the cached
+        // positions to be up-to-date before we re-sort the item.
+        this._itemPositions.forEach((/**
+         * @param {?} __0
+         * @return {?}
+         */
+        function (_a) {
+            var drag = _a.drag;
+            if (_this._dragDropRegistry.isDragging(drag)) {
+                // We need to re-sort the item manually, because the pointer move
+                // events won't be dispatched while the user is scrolling.
+                drag._sortFromLastPointerPosition();
+            }
+        }));
+        scrollPosition.top = newTop;
+        scrollPosition.left = newLeft;
+    };
+    /** Removes the event listeners associated with this drop list. */
+    /**
+     * Removes the event listeners associated with this drop list.
+     * @private
+     * @return {?}
+     */
+    DropListRef.prototype._removeListeners = /**
+     * Removes the event listeners associated with this drop list.
+     * @private
+     * @return {?}
+     */
+    function () {
+        coerceElement(this.element).removeEventListener('scroll', this._handleScroll);
+        this._viewportScrollSubscription.unsubscribe();
+    };
+    /**
      * Checks whether the user's pointer is positioned over the container.
      * @param x Pointer position along the X axis.
      * @param y Pointer position along the Y axis.
@@ -2583,7 +2908,7 @@ function adjustClientRect(clientRect, top, left) {
 }
 /**
  * Finds the index of an item that matches a predicate function. Used as an equivalent
- * of `Array.prototype.find` which isn't part of the standard Google typings.
+ * of `Array.prototype.findIndex` which isn't part of the standard Google typings.
  * @template T
  * @param {?} array Array in which to look for matches.
  * @param {?} predicate Function used to determine whether an item is a match.
@@ -2607,6 +2932,93 @@ function findIndex(array, predicate) {
 function isInsideClientRect(clientRect, x, y) {
     var top = clientRect.top, bottom = clientRect.bottom, left = clientRect.left, right = clientRect.right;
     return y >= top && y <= bottom && x >= left && x <= right;
+}
+/**
+ * Gets a mutable version of an element's bounding `ClientRect`.
+ * @param {?} element
+ * @return {?}
+ */
+function getMutableClientRect(element) {
+    /** @type {?} */
+    var clientRect = element.getBoundingClientRect();
+    // We need to clone the `clientRect` here, because all the values on it are readonly
+    // and we need to be able to update them. Also we can't use a spread here, because
+    // the values on a `ClientRect` aren't own properties. See:
+    // https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect#Notes
+    return {
+        top: clientRect.top,
+        right: clientRect.right,
+        bottom: clientRect.bottom,
+        left: clientRect.left,
+        width: clientRect.width,
+        height: clientRect.height
+    };
+}
+/**
+ * Increments the vertical scroll position of a node.
+ * @param {?} node Node whose scroll position should change.
+ * @param {?} amount Amount of pixels that the `node` should be scrolled.
+ * @return {?}
+ */
+function incrementVerticalScroll(node, amount) {
+    if (node === window) {
+        ((/** @type {?} */ (node))).scrollBy(0, amount);
+    }
+    else {
+        // Ideally we could use `Element.scrollBy` here as well, but IE and Edge don't support it.
+        ((/** @type {?} */ (node))).scrollTop += amount;
+    }
+}
+/**
+ * Increments the horizontal scroll position of a node.
+ * @param {?} node Node whose scroll position should change.
+ * @param {?} amount Amount of pixels that the `node` should be scrolled.
+ * @return {?}
+ */
+function incrementHorizontalScroll(node, amount) {
+    if (node === window) {
+        ((/** @type {?} */ (node))).scrollBy(amount, 0);
+    }
+    else {
+        // Ideally we could use `Element.scrollBy` here as well, but IE and Edge don't support it.
+        ((/** @type {?} */ (node))).scrollLeft += amount;
+    }
+}
+/**
+ * Gets whether the vertical auto-scroll direction of a node.
+ * @param {?} clientRect Dimensions of the node.
+ * @param {?} pointerY Position of the user's pointer along the y axis.
+ * @return {?}
+ */
+function getVerticalScrollDirection(clientRect, pointerY) {
+    var top = clientRect.top, bottom = clientRect.bottom, height = clientRect.height;
+    /** @type {?} */
+    var yThreshold = height * SCROLL_PROXIMITY_THRESHOLD;
+    if (pointerY >= top - yThreshold && pointerY <= top + yThreshold) {
+        return 1 /* UP */;
+    }
+    else if (pointerY >= bottom - yThreshold && pointerY <= bottom + yThreshold) {
+        return 2 /* DOWN */;
+    }
+    return 0 /* NONE */;
+}
+/**
+ * Gets whether the horizontal auto-scroll direction of a node.
+ * @param {?} clientRect Dimensions of the node.
+ * @param {?} pointerX Position of the user's pointer along the x axis.
+ * @return {?}
+ */
+function getHorizontalScrollDirection(clientRect, pointerX) {
+    var left = clientRect.left, right = clientRect.right, width = clientRect.width;
+    /** @type {?} */
+    var xThreshold = width * SCROLL_PROXIMITY_THRESHOLD;
+    if (pointerX >= left - xThreshold && pointerX <= left + xThreshold) {
+        return 1 /* LEFT */;
+    }
+    else if (pointerX >= right - xThreshold && pointerX <= right + xThreshold) {
+        return 2 /* RIGHT */;
+    }
+    return 0 /* NONE */;
 }
 
 /**
@@ -2643,9 +3055,13 @@ var DragDropRegistry = /** @class */ (function () {
          */
         this._dragInstances = new Set();
         /**
+         * Drag item instances for which a drag sequence has been initialized.
+         */
+        this._initializedDragSequences = new Set();
+        /**
          * Drag item instances that are currently being dragged.
          */
-        this._activeDragInstances = new Set();
+        this._startedDragSequences = new Set();
         /**
          * Keeps track of the event listeners that we've bound to the `document`.
          */
@@ -2661,6 +3077,10 @@ var DragDropRegistry = /** @class */ (function () {
          */
         this.pointerUp = new Subject();
         /**
+         * Emits when the viewport has been scrolled while the user is dragging an item.
+         */
+        this.scroll = new Subject();
+        /**
          * Event listener that will prevent the default browser action while the user is dragging.
          * @param event Event whose default action should be prevented.
          */
@@ -2669,7 +3089,7 @@ var DragDropRegistry = /** @class */ (function () {
          * @return {?}
          */
         function (event) {
-            if (_this._activeDragInstances.size) {
+            if (_this._startedDragSequences.size) {
                 event.preventDefault();
             }
         });
@@ -2765,7 +3185,7 @@ var DragDropRegistry = /** @class */ (function () {
      * @param {?} event Event that initiated the dragging.
      * @return {?}
      */
-    DragDropRegistry.prototype.startDragging = /**
+    DragDropRegistry.prototype.initializeDragging = /**
      * Starts the dragging sequence for a drag instance.
      * @param {?} drag Drag instance which is being dragged.
      * @param {?} event Event that initiated the dragging.
@@ -2774,11 +3194,11 @@ var DragDropRegistry = /** @class */ (function () {
     function (drag, event) {
         var _this = this;
         // Do not process the same drag twice to avoid memory leaks and redundant listeners
-        if (this._activeDragInstances.has(drag)) {
+        if (this._initializedDragSequences.has(drag)) {
             return;
         }
-        this._activeDragInstances.add(drag);
-        if (this._activeDragInstances.size === 1) {
+        this._initializedDragSequences.add(drag);
+        if (this._initializedDragSequences.size === 1) {
             /** @type {?} */
             var isTouchEvent = event.type.startsWith('touch');
             /** @type {?} */
@@ -2805,6 +3225,13 @@ var DragDropRegistry = /** @class */ (function () {
                 function (e) { return _this.pointerUp.next((/** @type {?} */ (e))); }),
                 options: true
             })
+                .set('scroll', {
+                handler: (/**
+                 * @param {?} e
+                 * @return {?}
+                 */
+                function (e) { return _this.scroll.next(e); })
+            })
                 // Preventing the default action on `mousemove` isn't enough to disable text selection
                 // on Safari so we need to prevent the selection event as well. Alternatively this can
                 // be done by setting `user-select: none` on the `body`, however it has causes a style
@@ -2813,14 +3240,6 @@ var DragDropRegistry = /** @class */ (function () {
                 handler: this._preventDefaultWhileDragging,
                 options: activeCapturingEventOptions
             });
-            // TODO(crisbeto): prevent mouse wheel scrolling while
-            // dragging until we've set up proper scroll handling.
-            if (!isTouchEvent) {
-                this._globalListeners.set('wheel', {
-                    handler: this._preventDefaultWhileDragging,
-                    options: activeCapturingEventOptions
-                });
-            }
             this._ngZone.runOutsideAngular((/**
              * @return {?}
              */
@@ -2836,6 +3255,20 @@ var DragDropRegistry = /** @class */ (function () {
             }));
         }
     };
+    /**
+     * @param {?} drag
+     * @return {?}
+     */
+    DragDropRegistry.prototype.startDragging = /**
+     * @param {?} drag
+     * @return {?}
+     */
+    function (drag) {
+        if (this._startedDragSequences.has(drag)) {
+            return;
+        }
+        this._startedDragSequences.add(drag);
+    };
     /** Stops dragging a drag item instance. */
     /**
      * Stops dragging a drag item instance.
@@ -2848,8 +3281,9 @@ var DragDropRegistry = /** @class */ (function () {
      * @return {?}
      */
     function (drag) {
-        this._activeDragInstances.delete(drag);
-        if (this._activeDragInstances.size === 0) {
+        this._startedDragSequences.delete(drag);
+        this._initializedDragSequences.delete(drag);
+        if (this._initializedDragSequences.size === 0) {
             this._clearGlobalListeners();
         }
     };
@@ -2865,7 +3299,7 @@ var DragDropRegistry = /** @class */ (function () {
      * @return {?}
      */
     function (drag) {
-        return this._activeDragInstances.has(drag);
+        return this._initializedDragSequences.has(drag);
     };
     /**
      * Gets a drop container by its id.
@@ -3012,7 +3446,7 @@ var DragDrop = /** @class */ (function () {
      * @return {?}
      */
     function (element) {
-        return new DropListRef(element, this._dragDropRegistry, this._document);
+        return new DropListRef(element, this._dragDropRegistry, this._document, this._ngZone, this._viewportRuler);
     };
     DragDrop.decorators = [
         { type: Injectable, args: [{ providedIn: 'root' },] },
@@ -3841,6 +4275,10 @@ var CdkDropList = /** @class */ (function () {
          */
         function () { return true; });
         /**
+         * Whether to auto-scroll the view when the user moves their pointer close to the edges.
+         */
+        this.autoScrollDisabled = false;
+        /**
          * Emits when the user drops an item inside the container.
          */
         this.dropped = new EventEmitter();
@@ -4178,6 +4616,7 @@ var CdkDropList = /** @class */ (function () {
             ref.disabled = _this.disabled;
             ref.lockAxis = _this.lockAxis;
             ref.sortingDisabled = _this.sortingDisabled;
+            ref.autoScrollDisabled = _this.autoScrollDisabled;
             ref
                 .connectedTo(siblings.filter((/**
              * @param {?} drop
@@ -4312,6 +4751,7 @@ var CdkDropList = /** @class */ (function () {
         disabled: [{ type: Input, args: ['cdkDropListDisabled',] }],
         sortingDisabled: [{ type: Input, args: ['cdkDropListSortingDisabled',] }],
         enterPredicate: [{ type: Input, args: ['cdkDropListEnterPredicate',] }],
+        autoScrollDisabled: [{ type: Input, args: ['cdkDropListAutoScrollDisabled',] }],
         dropped: [{ type: Output, args: ['cdkDropListDropped',] }],
         entered: [{ type: Output, args: ['cdkDropListEntered',] }],
         exited: [{ type: Output, args: ['cdkDropListExited',] }],

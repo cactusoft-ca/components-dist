@@ -494,17 +494,19 @@ class OverlayConfig {
          */
         this.disposeOnNavigation = false;
         if (config) {
-            Object.keys(config).forEach((/**
-             * @param {?} k
-             * @return {?}
-             */
-            k => {
-                /** @type {?} */
-                const key = (/** @type {?} */ (k));
-                if (typeof config[key] !== 'undefined') {
-                    this[key] = config[key];
+            /** @type {?} */
+            const configKeys = (/** @type {?} */ (Object.keys(config)));
+            for (const key of configKeys) {
+                if (config[key] !== undefined) {
+                    // TypeScript, as of version 3.5, sees the left-hand-side of this expression
+                    // as "I don't know *which* key this is, so the only valid value is the intersection
+                    // of all the posible values." In this case, that happens to be `undefined`. TypeScript
+                    // is not smart enough to see that the right-hand-side is actually an access of the same
+                    // exact type with the same exact key, meaning that the value type must be identical.
+                    // So we use `any` to work around this.
+                    this[key] = (/** @type {?} */ (config[key]));
                 }
-            }));
+            }
         }
     }
 }
@@ -845,6 +847,11 @@ class OverlayRef {
         this._attachments = new Subject();
         this._detachments = new Subject();
         this._locationChanges = Subscription.EMPTY;
+        this._backdropClickHandler = (/**
+         * @param {?} event
+         * @return {?}
+         */
+        (event) => this._backdropClick.next(event));
         this._keydownEventsObservable = new Observable((/**
          * @param {?} observer
          * @return {?}
@@ -1203,11 +1210,7 @@ class OverlayRef {
         (/** @type {?} */ (this._host.parentElement)).insertBefore(this._backdropElement, this._host);
         // Forward backdrop clicks such that the consumer of the overlay can perform whatever
         // action desired when such a click occurs (usually closing the overlay).
-        this._backdropElement.addEventListener('click', (/**
-         * @param {?} event
-         * @return {?}
-         */
-        (event) => this._backdropClick.next(event)));
+        this._backdropElement.addEventListener('click', this._backdropClickHandler);
         // Add class to fade-in the backdrop after one frame.
         if (typeof requestAnimationFrame !== 'undefined') {
             this._ngZone.runOutsideAngular((/**
@@ -1260,8 +1263,12 @@ class OverlayRef {
          */
         () => {
             // It may not be attached to anything in certain cases (e.g. unit tests).
-            if (backdropToDetach && backdropToDetach.parentNode) {
-                backdropToDetach.parentNode.removeChild(backdropToDetach);
+            if (backdropToDetach) {
+                backdropToDetach.removeEventListener('click', this._backdropClickHandler);
+                backdropToDetach.removeEventListener('transitionend', finishDetach);
+                if (backdropToDetach.parentNode) {
+                    backdropToDetach.parentNode.removeChild(backdropToDetach);
+                }
             }
             // It is possible that a new portal has been attached to this overlay since we started
             // removing the backdrop. If that is the case, only clear the backdrop reference if it
@@ -2135,8 +2142,8 @@ class FlexibleConnectedPositionStrategy {
         /** @type {?} */
         let right;
         if (isBoundedByLeftViewportEdge) {
-            right = viewport.right - origin.x + this._viewportMargin;
-            width = origin.x - viewport.left;
+            right = viewport.width - origin.x + this._viewportMargin;
+            width = origin.x - this._viewportMargin;
         }
         else if (isBoundedByRightViewportEdge) {
             left = origin.x;

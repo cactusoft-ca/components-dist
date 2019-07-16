@@ -545,7 +545,6 @@ var  /**
  */
 OverlayConfig = /** @class */ (function () {
     function OverlayConfig(config) {
-        var _this = this;
         /**
          * Strategy to be used when handling scroll events while the overlay is open.
          */
@@ -569,17 +568,20 @@ OverlayConfig = /** @class */ (function () {
          */
         this.disposeOnNavigation = false;
         if (config) {
-            Object.keys(config).forEach((/**
-             * @param {?} k
-             * @return {?}
-             */
-            function (k) {
-                /** @type {?} */
-                var key = (/** @type {?} */ (k));
-                if (typeof config[key] !== 'undefined') {
-                    _this[key] = config[key];
+            /** @type {?} */
+            var configKeys = (/** @type {?} */ (Object.keys(config)));
+            for (var _i = 0, configKeys_1 = configKeys; _i < configKeys_1.length; _i++) {
+                var key = configKeys_1[_i];
+                if (config[key] !== undefined) {
+                    // TypeScript, as of version 3.5, sees the left-hand-side of this expression
+                    // as "I don't know *which* key this is, so the only valid value is the intersection
+                    // of all the posible values." In this case, that happens to be `undefined`. TypeScript
+                    // is not smart enough to see that the right-hand-side is actually an access of the same
+                    // exact type with the same exact key, meaning that the value type must be identical.
+                    // So we use `any` to work around this.
+                    this[key] = (/** @type {?} */ (config[key]));
                 }
-            }));
+            }
         }
     }
     return OverlayConfig;
@@ -981,6 +983,11 @@ OverlayRef = /** @class */ (function () {
         this._attachments = new Subject();
         this._detachments = new Subject();
         this._locationChanges = Subscription.EMPTY;
+        this._backdropClickHandler = (/**
+         * @param {?} event
+         * @return {?}
+         */
+        function (event) { return _this._backdropClick.next(event); });
         this._keydownEventsObservable = new Observable((/**
          * @param {?} observer
          * @return {?}
@@ -1490,11 +1497,7 @@ OverlayRef = /** @class */ (function () {
         (/** @type {?} */ (this._host.parentElement)).insertBefore(this._backdropElement, this._host);
         // Forward backdrop clicks such that the consumer of the overlay can perform whatever
         // action desired when such a click occurs (usually closing the overlay).
-        this._backdropElement.addEventListener('click', (/**
-         * @param {?} event
-         * @return {?}
-         */
-        function (event) { return _this._backdropClick.next(event); }));
+        this._backdropElement.addEventListener('click', this._backdropClickHandler);
         // Add class to fade-in the backdrop after one frame.
         if (typeof requestAnimationFrame !== 'undefined') {
             this._ngZone.runOutsideAngular((/**
@@ -1569,8 +1572,12 @@ OverlayRef = /** @class */ (function () {
          */
         function () {
             // It may not be attached to anything in certain cases (e.g. unit tests).
-            if (backdropToDetach && backdropToDetach.parentNode) {
-                backdropToDetach.parentNode.removeChild(backdropToDetach);
+            if (backdropToDetach) {
+                backdropToDetach.removeEventListener('click', _this._backdropClickHandler);
+                backdropToDetach.removeEventListener('transitionend', finishDetach);
+                if (backdropToDetach.parentNode) {
+                    backdropToDetach.parentNode.removeChild(backdropToDetach);
+                }
             }
             // It is possible that a new portal has been attached to this overlay since we started
             // removing the backdrop. If that is the case, only clear the backdrop reference if it
@@ -2771,8 +2778,8 @@ FlexibleConnectedPositionStrategy = /** @class */ (function () {
         /** @type {?} */
         var right;
         if (isBoundedByLeftViewportEdge) {
-            right = viewport.right - origin.x + this._viewportMargin;
-            width = origin.x - viewport.left;
+            right = viewport.width - origin.x + this._viewportMargin;
+            width = origin.x - this._viewportMargin;
         }
         else if (isBoundedByRightViewportEdge) {
             left = origin.x;
